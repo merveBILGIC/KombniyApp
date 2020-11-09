@@ -16,4 +16,4 @@ Platformun geliri kıyafet satışlarından ve Influecerlarla çalışmalardan e
 Kullanıcılara zaman kazandırıp, kendilerine daha çok vakit ayırlamarı bunun yanı sıra pandeminin engel olduğu sosyalleşmeyi giderip aynı zamanda sosyal bağları kuvvetlendirmek için insanların ihtiyaç fazlası olan ürünleri bağışlayabileceği, bunun yanı sıra satışlardan ek gelir elde edebileceği sosyal bir platform.
   
   
-  # Merve BİLİÇ & Merilin ALİ
+  # Merve BİLGİÇ & Merilin ALİ
