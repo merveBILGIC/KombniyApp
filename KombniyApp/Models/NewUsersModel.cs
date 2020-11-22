@@ -36,10 +36,13 @@ namespace KombniyApp.Models
 	    //pasword dogrulama yapcaz
 		public string Password { get; set; }
 
-		public string City { get; set; }
+		//public string City { get; set; }
+		//kullanıcının girdiği tarih şu an ki tarihten çıkartıcaaz 18 den büyükse kayıt onayla
+		//[DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
+		//[Display(Name = "Birth Date")]
+		//public DateTime? BirthDate { get; set; }
 
-		[DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]
-		[Display(Name = "Birth Date")]
-		public DateTime? BirthDate { get; set; }
+		//yorum123
+		
 	}
 }
