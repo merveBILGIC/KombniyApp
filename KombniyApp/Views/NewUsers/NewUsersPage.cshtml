@@ -1,0 +1,52 @@
+﻿@model NewUsersModel;
+
+@{
+    ViewBag.Title = "KAYIT OL";
+
+ }
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Kayıt ol</title>
+        <br />
+        <br />
+    </head>
+    <body>
+        <form action="NewUsers/NewUsersPage" method="post">
+            <label>Kullanıcı Adı:</label>
+            <br />
+            <input type="text" name="UserName" />
+            <br />
+            <label>İsim:</label>
+            <br />
+            <input type="text" name="Name" />
+            <br />
+            <label>Soyisim:</label>
+            <br />
+            <input type="text" name="Surname " />
+            <br />
+            <label>Email:</label>
+            <br />
+            <input type="email" name="Email" />
+            <br />
+            <label>Telefon numarası:</label>
+            <br />
+            <input type="number" name="Phone" />
+            <br />
+            <label>Password:</label>
+            <br />
+            <input type="password" name="Password" />
+            <br />
+            <label>City</label>
+            <br />
+            <input type="text" name="City" />
+            <br />
+            <label>Dogum tarihi : </label>
+            <br />
+            <input  type="datetime" name="BirthDate"/>
+            <br /><br />
+            <input type="submit" value="Kayıt ol" />
+
+        </form>
+    </body>
+</html>

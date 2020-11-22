@@ -1,0 +1,17 @@
+﻿@model LoginModel
+@{
+    ViewBag.Title = "GİRİŞ SAYFASI"; }
+
+
+@using (Html.BeginForm("Action-Adi", "Controller-Adi"))
+
+{ 
+    <div> kullnıcı adı giriniz :</div>
+    @Html.TextBox("Text","");
+    
+    <br />
+    <div>password giriniz :</div>
+    @Html.TextBox("Text", "");
+    <br /><br />
+    <input type="submit" value="Giriş yap" />
+}
