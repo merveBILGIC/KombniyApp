@@ -20,18 +20,20 @@ namespace KombniyApp.Controllers
 
 		public IActionResult Index()
 		{
+			ViewBag.RenderCarousel = true;
+			return View();
+			
+		}
+		public ActionResult Product()
+		{
+			ViewBag.RenderCarousel = false;
 			return View();
 		}
 
-		public IActionResult Privacy()
+		public ActionResult Checkout()
 		{
+			ViewBag.RenderCarousel = false;
 			return View();
-		}
-
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 		}
 	}
 }

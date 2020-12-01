@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "form-inline" }))
+    {
+        @Html.AntiForgeryToken()
+        <li class="nav-item">
+            @Html.ActionLink("Hi " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "nav-link waves-effect waves-light" })
+        </li>
+        <li class="nav-item"><a class="nav-link waves-effect waves-light" href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a></li>
+    }
+}
+else
+{
+    <li class="nav-item">@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", @class = "nav-link waves-effect waves-light" })</li>
+    <li class="nav-item">@Html.ActionLink("Login", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "nav-link waves-effect waves-light" })</li>
+}
