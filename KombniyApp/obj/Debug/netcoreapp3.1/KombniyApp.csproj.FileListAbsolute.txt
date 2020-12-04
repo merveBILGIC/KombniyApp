@@ -80,3 +80,5 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp\obj\Debug\netcorea
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp\obj\Debug\netcoreapp3.1\KombniyApp.pdb
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp\obj\Debug\netcoreapp3.1\KombniyApp.genruntimeconfig.cache
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp\obj\Debug\netcoreapp3.1\KombniyApp.csproj.CopyComplete
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Lockout.cshtml.g.cs
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
