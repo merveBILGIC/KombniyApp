@@ -14,9 +14,19 @@ namespace KombniyAppAccount.DaO
         private static readonly Daoperations instance = null;
         private static readonly object padlock = new object();
 
-		internal static UserDao GetUserDao()
-		{
-			throw new NotImplementedException();
-		}
-	}
+        public DataContext getContext()
+        {
+            if (_context == null)
+            {
+                _context = DataContext.getContext();
+            }
+            return _context;
+        }
+
+        public static UserDao GetUserDao()
+        {
+            return UserDao.getInstance();
+        }
+        
+    }
 }
