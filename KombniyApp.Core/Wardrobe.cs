@@ -1,12 +1,12 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
-using KombniyApp.Core.Models;
+using KombniyApp.Core;
 
 namespace KombniyApp.Core
 {
-	class Wardrobe
-    {
+	public class Wardrobe
+	{
 		public Wardrobe()
 		{
 
@@ -14,7 +14,7 @@ namespace KombniyApp.Core
 		[Key]
 		public int WardrobeId { get; set; }
 		public ICollection<Product> products { get; set; }
-		
+
 
 	}
 }

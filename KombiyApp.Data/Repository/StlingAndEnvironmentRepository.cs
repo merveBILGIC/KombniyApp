@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
-using KombniyApp.Core.Models;
+using KombniyApp.Core;
 using KombniyApp.Core.Repository;
 using System.Threading.Tasks;
+using KombniyApp.Core.Services;
+
 namespace KombiyApp.Data.Repository
 {
-	class StlingAndEnvironmentRepository:Repository<StlingAndEnvironmentRepository>,IStlinAndEnvironmentRepo
+	class StlingAndEnvironmentRepository:Repository<StlingAndEnvironment>,IStylinAndEnvironment
 	{
 		public StlingAndEnvironmentRepository(AppDbContext context):base(context)
 		{
@@ -25,7 +27,7 @@ namespace KombiyApp.Data.Repository
 				.ToListAsync();
 		}
 
-		public async Task<IEnumerable<StlingAndEnvironment>> GetAllWithProductAsync()
+		public async Task<IEnumerable<StlingAndEnvironment>> GetAllWithProductByIdAsync()
 		{
 			return await AppDbContext.StlingAndEnviroments
 						 .Include(m => m.Products)
@@ -40,12 +42,6 @@ namespace KombiyApp.Data.Repository
 			.ToListAsync();
 		}
 
-		public async Task<StlingAndEnvironmen> GetWithProductByIdAsync(int id)
-		{
-			return await AppDbContext.StlingAndEnviroments
-				.Include(m => m.Product)
-				.SingleOrDefaultAsync(m => m.ProductId == id);
-		}
-
+		
 	}
 }

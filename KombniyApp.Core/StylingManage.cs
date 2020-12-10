@@ -4,16 +4,13 @@ using System.Text;
 
 namespace KombniyApp.Core
 {
-	class StylingManage
+	public class StylingManage
 	{
 		public int StylingManageId { get; set; }
 
 		public int StylingGiveUserId { get; set; }
 
 		public int StylingGetUserId { get; set; }
-
-
-
 	}
-	
+
 }

@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace KombniyApp.Core.Services
 {
-	interface IStylingAndEnvironment
+	public interface IStylingAndEnvironment
 	{
-		Task<IEnumerable<StlingAndEnvironment>> GetAllStlingAmdEnvironment();
-		Task<StlingAndEnvironment> GetStlingAndEnvironmentById(int id);
-		Task<StlingAndEnvironment> CreateStlingAndEnvironment(StlingAndEnvironment newStlingAndEnvironment);
-		Task UpdateStlingAndEnvironment(StlingAndEnvironment StlingAndEnvironmentToBeUpdated, StlingAndEnvironment stlingAndEnvironment);
-		Task DeleteStlingAndEnvironment(StlingAndEnvironment stlingAndEnvironment);
+		Task<IEnumerable<StlingAndEnvironment>> GetAllWithArtist();
+		Task<StlingAndEnvironment> GetMusicById(int id);
+		Task<IEnumerable<StlingAndEnvironment>> GetMusicsByArtistId(int productId);
+		Task<StlingAndEnvironment> CreateMusic(StlingAndEnvironment newStlingAndEvironment);
+		Task UpdateMusic(StlingAndEnvironment stlingAndEnvironmentToBeUpdated, StlingAndEnvironment stlingAndEnvironment);
+		Task DeleteMusic(StlingAndEnvironment stlingAndEnvironment);
 
 	}
 }

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace KombniyApp.Core.Repository
 {
@@ -10,7 +12,7 @@ namespace KombniyApp.Core.Repository
 		Task<IEnumerable<T>> GetAllAsync(); // IEnumerable<T> GetAll()
 
 		IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
-		Task<TEntitiy> SingleOrDefaultAsync(Expression<Func<TEntitiy, bool>> predicate);
+		Task<T> SingleOrDefaultAsync(Expression<Func<T, bool>> predicate);
 
 		Task AddAsync(T entity);
 		Task AddRangeAsync(IEnumerable<T> entities);

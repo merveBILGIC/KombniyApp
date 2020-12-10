@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using KombniyAppcore.Repository;
+using KombniyApp.Core.Repository;
 
 namespace KombiyApp.Data.Repository
 {

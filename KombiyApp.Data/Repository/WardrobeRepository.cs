@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
-using KombiyApp.Core.Models;
-using KombiyApp.Core.Repository;
+using KombniyApp.Core;
+using KombniyApp.Core.Repository;
+
 using System.Linq;
 using System.Threading.Tasks;
 using KombiyApp.Data;
@@ -29,13 +30,6 @@ namespace KombiyApp.Data.Repository
 				.ToListAsync();
 		}
 
-		public async Task<IEnumerable<Wardrobe>> GetAllWithUserAsync()
-		{
-			return await AppDbContext.Wardrobes
-				         .Include(m => m.User)
-				         .ToListAsync();
-		}
-		 
 		public async Task<IEnumerable<Wardrobe>> GetAllWithUserByIdAsync(int userid)
 		{
 			return await AppDbContext.Wardrobes
@@ -44,7 +38,7 @@ namespace KombiyApp.Data.Repository
 			.ToListAsync();
 		}
 
-		public async Task<Wardrobe> GetWithUserByIdAsync(int id)
+		public async Task<Wardrobe> GetWithUserByUserIdAsync(int id)
 		{
 			return await AppDbContext.Wardrobes
 				.Include(m => m.User)

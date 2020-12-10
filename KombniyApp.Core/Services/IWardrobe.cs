@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using KombniyApp.Core.Models;
+using KombniyApp.Core;
 using System.Threading.Tasks;
 
 namespace KombniyApp.Core.Services
 {
-	public interface IWardrobe:IRepository<Wardrobe>
+	public interface IWardrobex
 	{
 
 		Task<IEnumerable<User>> GetAllWithUser();

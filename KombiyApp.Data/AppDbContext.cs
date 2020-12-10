@@ -1,4 +1,4 @@
-﻿using KombniyApp.Core.Models;
+﻿using KombniyApp.Core;
 using Microsoft.EntityFrameworkCore;
 namespace KombiyApp.Data
 {

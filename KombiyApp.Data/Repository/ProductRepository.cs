@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using KombiyApp.Core.Models;
-using KombiyApp.Core.Repository;
+using KombiyApp.Core;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
