@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZfgfXGi4D7Sdnr9YXRAxvU1bOnqdtu8mhLS4Wg4zRBd+YZxzqEIwD6Ih4OLRRdXLdHUcZEO0d8cRT4fpOaivLw==",
+  "dgSpecHash": "19KFRcVL06JtjpeqHa16ki/FHnBZyWk2pRTQGlgfkUbftHpq7PrB+x5Ayyhj/vOrLc2ii2IhBWpfyay30GBELQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
   "expectedPackageFiles": [
@@ -169,7 +169,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

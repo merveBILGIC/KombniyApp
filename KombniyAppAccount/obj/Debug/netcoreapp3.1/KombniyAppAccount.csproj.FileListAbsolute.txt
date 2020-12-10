@@ -111,7 +111,6 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\n
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyAppAccount.StaticWebAssets.xml
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
@@ -163,5 +162,7 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\n
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Account\Settings.cshtml.g.cs
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
-C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Humanizer.dll
-C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll

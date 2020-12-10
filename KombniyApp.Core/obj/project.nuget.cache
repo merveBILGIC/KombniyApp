@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sjkmCp0+xdZvu1i/xhqlA2zSwy62Kz2tdnDytLNhMeIjOwMewvRDdZuyPi8BySWv9v4iZnShliK/Cv57OKpkEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

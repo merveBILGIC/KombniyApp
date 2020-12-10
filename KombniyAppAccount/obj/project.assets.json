@@ -2682,6 +2682,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "KombiyApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "KombniyApp.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.10"
+        },
+        "compile": {
+          "bin/placeholder/KombiyApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KombiyApp.Data.dll": {}
+        }
+      },
+      "KombniyApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/KombniyApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KombniyApp.Core.dll": {}
+        }
       }
     }
   },
@@ -8681,10 +8705,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "KombiyApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../KombiyApp.Data/KombiyApp.Data.csproj",
+      "msbuildProject": "../KombiyApp.Data/KombiyApp.Data.csproj"
+    },
+    "KombniyApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../KombniyApp.Core/KombniyApp.Core.csproj",
+      "msbuildProject": "../KombniyApp.Core/KombniyApp.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "KombiyApp.Data >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.10",
       "Microsoft.EntityFrameworkCore >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.10",
@@ -8723,7 +8758,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -8775,6 +8814,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8783,7 +8832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

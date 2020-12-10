@@ -30,4 +30,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KombiyApp.Data\KombiyApp.Data.csproj" />
+  </ItemGroup>
+
 </Project>

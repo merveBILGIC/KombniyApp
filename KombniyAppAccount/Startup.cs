@@ -32,7 +32,7 @@ namespace KombniyAppAccount
 				options.Cookie.HttpOnly = true;
 				options.Cookie.IsEssential = true;
 			});
-			services.AddDbContext<DataContext>();
+			services.AddDbContext<DataContext>(options=> options.UseSqlServer(Configuration.GetConnectionString("KombniyAppAccountContextConnection")));
 
 
 		}
