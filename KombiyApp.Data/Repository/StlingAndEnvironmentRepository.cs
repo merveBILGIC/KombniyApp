@@ -6,10 +6,11 @@ using KombniyApp.Core;
 using KombniyApp.Core.Repository;
 using System.Threading.Tasks;
 using KombniyApp.Core.Services;
+using System.Linq;
 
 namespace KombiyApp.Data.Repository
 {
-	class StlingAndEnvironmentRepository:Repository<StlingAndEnvironment>,IStylinAndEnvironment
+	class StlingAndEnvironmentRepository:Repository<StlingAndEnvironment>,IStlinAndEnvironmentRepo
 	{
 		public StlingAndEnvironmentRepository(AppDbContext context):base(context)
 		{
@@ -20,25 +21,25 @@ namespace KombiyApp.Data.Repository
 			get { return _context as AppDbContext; }
 
 		}
-		public async Task<IEnumerable<StlingAndEnviroment>> GetAllWithProductAsync()
+		public async Task<IEnumerable<StlingAndEnvironment>> GetAllWithProductAsync()
 		{
 			return await AppDbContext.StlingAndEnviroments
 				.Include(m => m.Products)
 				.ToListAsync();
 		}
 
-		public async Task<IEnumerable<StlingAndEnvironment>> GetAllWithProductByIdAsync()
+		public  Task<StlingAndEnvironment> GetWithProductByIdAsync( int id)
 		{
-			return await AppDbContext.StlingAndEnviroments
+			return AppDbContext.StlingAndEnviroments
 						 .Include(m => m.Products)
-						 .ToListAsync();
+						 .SingleOrDefaultAsync(m => m.ProductId == id);
 		}
 
-		public async Task<IEnumerable<StlingAndEnvironment>> GetAllWithProductByIdAsync(int productid)
+		public async Task<IEnumerable<StlingAndEnvironment>> GetAllWithProductByProductIdAsync(int productid)
 		{
 			return await AppDbContext.StlingAndEnviroments
 			.Include(m => m.Products)
-			.Where(m => m.ProductId == productrid)
+			.Where(m => m.ProductId == productid)
 			.ToListAsync();
 		}
 

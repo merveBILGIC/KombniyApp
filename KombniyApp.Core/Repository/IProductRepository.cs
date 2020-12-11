@@ -8,10 +8,11 @@ namespace KombniyApp.Core.Repository
 {
 	public interface IProductRepository:IRepository<Product>
 	{
-		Task<IEnumerable<Product>> GetAllProducts();
-		Task<Product> GetProductById(int id);
-		Task<Product> CreateProduct(User newProduct);
-		Task UpdateProduct(Product ProductToBeUpdated, Product product);
-		Task DeleteProduct(Product product);
+		Task<IEnumerable<Product>> GetAllWithWardrobeAsync();
+		Task<IEnumerable<Product>> GetAllWithStlingAndEnvironmentAsync();
+		Task<Product> GetWithWardrobeByIdAsync(int id);
+		Task<Product> GetWithStlingAndEnvironmentByIdAsync(int id);
+		Task<IEnumerable<Product>> GetAllWithWardrobeByWardrobeIdAsync(int wardrobeId);
+		Task<IEnumerable<Product>> GetAllWithStlingAndEnvironmentByStlingAndEnvironmenIdAsync(int stlingAndEnvironmenId);
 	}
 }

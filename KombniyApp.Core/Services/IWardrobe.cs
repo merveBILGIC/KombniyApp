@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KombniyApp.Core.Services
 {
-	public interface IWardrobex
+	public interface IWardrobe
 	{
 
 		Task<IEnumerable<User>> GetAllWithUser();

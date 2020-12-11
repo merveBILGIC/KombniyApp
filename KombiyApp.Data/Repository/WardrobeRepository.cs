@@ -4,17 +4,16 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using KombniyApp.Core;
 using KombniyApp.Core.Repository;
-
 using System.Linq;
 using System.Threading.Tasks;
-using KombiyApp.Data;
+
 
 
 namespace KombiyApp.Data.Repository
 {
-	class WardrobeRepository : Repository<Wardrobe>,IWardrobeRepository
+	class WardrobeRepository : Repository<Wardrobe>, IWardrobeRepository
 	{
-		public WardrobeRepository(AppDbContext context):base(context)
+		public WardrobeRepository(AppDbContext context) : base(context)
 		{
 
 		}
@@ -23,26 +22,26 @@ namespace KombiyApp.Data.Repository
 			get { return _context as AppDbContext; }
 
 		}
-		public async Task<IEnumerable<Wardobe>> GetAllWithUserAsync()
+		public async Task<IEnumerable<Wardrobe>> GetAllWithProductAsync()
 		{
 			return await AppDbContext.Wardrobes
-				.Include(m => m.User)
+				.Include(t => t.products)
 				.ToListAsync();
 		}
 
-		public async Task<IEnumerable<Wardrobe>> GetAllWithUserByIdAsync(int userid)
+		public Task<Wardrobe> GetWithProductByIdAsync(int id)
 		{
-			return await AppDbContext.Wardrobes
-			.Include(m => m.User)
-			.Where(m => m.UserId == userid)
-			.ToListAsync();
+			return AppDbContext.Wardrobes
+			.Include(m => m.products)
+			.SingleOrDefaultAsync(m => m.ProductId == id);
 		}
 
-		public async Task<Wardrobe> GetWithUserByUserIdAsync(int id)
+		public async Task<IEnumerable<Wardrobe>> GetAllWithProductByProductIdAsync(int productid)
 		{
 			return await AppDbContext.Wardrobes
-				.Include(m => m.User)
-				.SingleOrDefaultAsync(m => m.UserId == id);
+				.Include(m => m.products)
+				.Where(m => m.ProductId == productid)
+				.ToListAsync();
 		}
 
 	}

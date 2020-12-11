@@ -13,7 +13,8 @@ namespace KombniyApp.Core
 		}
 		[Key]
 		public int WardrobeId { get; set; }
-		public ICollection<Product> products { get; set; }
+		public int ProductId { get; set; }
+		public ICollection<Product> Products { get; set; }
 
 
 	}

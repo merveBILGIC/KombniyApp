@@ -7,8 +7,8 @@ namespace KombniyApp.Core.Repository
 {
 	public interface IWardrobeRepository:IRepository<Wardrobe>
 	{
-		Task<IEnumerable<Wardrobe>> GetAllWithUserAsync();
-		Task<Wardrobe> GetWithUserByIdAsync(int id);
-		Task<IEnumerable<Wardrobe>> GetAllWithUserByUserIdAsync(int userId);
+		Task<IEnumerable<Wardrobe>> GetAllWithProductAsync();
+		Task<Wardrobe> GetWithProductByIdAsync(int id);
+		Task<IEnumerable<Wardrobe>> GetAllWithProductByProductIdAsync(int productId);
 	}
 }

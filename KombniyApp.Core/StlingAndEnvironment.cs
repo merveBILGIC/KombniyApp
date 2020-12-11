@@ -10,7 +10,7 @@ namespace KombniyApp.Core
 		public int StlingAndEnvironmentId { get; set; }
 		public string Name { get; set; }
 		public ICollection<Product> Products { get; set; }
-
+		public int ProductId { get; set; }
 		
 	}
 }
