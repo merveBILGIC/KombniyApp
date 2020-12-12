@@ -11,13 +11,16 @@ namespace KombiyApp.Data.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
+        
+
+
         public Repository(DbContext context)
         {
             _context = context;
         }
 
         protected readonly DbContext _context;
-
+      
 
         public async Task AddAsync(T entity)
         {
@@ -33,7 +36,7 @@ namespace KombiyApp.Data.Repository
         public IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
         {
             return _context.Set<T>().Where(predicate);
-        }
+        } 
 
         public async Task<IEnumerable<T>> GetAllAsync()
         {
@@ -66,6 +69,9 @@ namespace KombiyApp.Data.Repository
             }
             */
         }
+
+       
+       
 
         public Task<T> SingleOrDefaultAsync(Expression<Func<T, bool>> predicate)
         {

@@ -38,5 +38,11 @@ namespace KombniyApp.Core
 		public Wardrobe Wardrobe { get; set; }
 
 		public IEnumerable<Wardrobe> Wardrobes { get; set; }
+
+		public int MatesId { get; set; }
+		public UserMates mates { get; set; }
+		public IEnumerable<UserMates> Mates { get; set; }
+
+	
 	}
 }

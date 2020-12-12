@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 using System.ComponentModel.DataAnnotations;
 
-namespace KombniyAppAccount.Models.UsersModel
+namespace KombniyApp.Core.Models
 {
-	public class registerViewModel
+	public class RegisterViewModel
 	{
-		 public int id { get; set; }
+		public int id { get; set; }
 
 
 		[Required(ErrorMessage = "Your  users name Required")]

@@ -4,8 +4,7 @@ using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using KombniyApp.Core;
-
-
+using Microsoft.AspNetCore.Http;
 
 namespace KombniyApp.Core
 {

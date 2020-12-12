@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombniyAppAccount", "KombniyAppAccount\KombniyAppAccount.csproj", "{C169465E-7FDD-43B2-92BC-EE753AA0A5B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88} = {2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KombiyApp.Data", "KombiyApp.Data\KombiyApp.Data.csproj", "{C31E6819-2D25-49DD-A8E2-15BCB7D35EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombiyApp.Data", "KombiyApp.Data\KombiyApp.Data.csproj", "{C31E6819-2D25-49DD-A8E2-15BCB7D35EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KombniyApp.Core", "KombniyApp.Core\KombniyApp.Core.csproj", "{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombniyApp.Core", "KombniyApp.Core\KombniyApp.Core.csproj", "{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

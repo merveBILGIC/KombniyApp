@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 using System.ComponentModel.DataAnnotations;
 
-
-namespace KombniyAppAccount.Models
+namespace KombniyApp.Core.Models
 {
-	public class PasswordCode
+	public class PasswordCodeModel
 	{
         public int Id { get; set; }
         public User User { get; set; }

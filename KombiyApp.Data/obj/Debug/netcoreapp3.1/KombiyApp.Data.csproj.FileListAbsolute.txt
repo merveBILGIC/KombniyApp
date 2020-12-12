@@ -1,0 +1,4 @@
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netcoreapp3.1\KombiyApp.Data.csprojAssemblyReference.cache
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netcoreapp3.1\KombiyApp.Data.AssemblyInfoInputs.cache
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netcoreapp3.1\KombiyApp.Data.AssemblyInfo.cs
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netcoreapp3.1\KombiyApp.Data.csproj.CoreCompileInputs.cache

@@ -20,7 +20,7 @@ namespace KombniyApp.Core.Repository
 		void Remove(T entity);
 		void RemoveRange(IEnumerable<T> entities);
 
-
+		
 
 
 
