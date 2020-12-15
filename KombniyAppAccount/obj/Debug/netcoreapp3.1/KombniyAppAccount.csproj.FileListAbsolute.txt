@@ -166,3 +166,11 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\n
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombiyApp.Data.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.Core.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.Services.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombiyApp.Data.pdb
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.Core.pdb
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.Services.pdb

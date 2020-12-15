@@ -11,7 +11,6 @@ namespace KombniyApp.Core.Services
 		Task<IEnumerable<StylingManage>> GetAllStylingManage();
 		Task<StylingManage> GetStylingManageById(int id);
 		Task<StylingManage> CreateStylingManage(StylingManage newStylingManage);
-		Task UpdateStylingManage(StylingManage StylingManageToBeUpdated, StylingManage  stylingManage);
 		Task DeleteStylingManage(StylingManage stylingManage);
 	}
 }

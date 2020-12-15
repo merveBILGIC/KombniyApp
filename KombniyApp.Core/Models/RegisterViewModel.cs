@@ -7,7 +7,7 @@ namespace KombniyApp.Core.Models
 {
 	public class RegisterViewModel
 	{
-		public int id { get; set; }
+		public int registerId { get; set; }
 
 
 		[Required(ErrorMessage = "Your  users name Required")]

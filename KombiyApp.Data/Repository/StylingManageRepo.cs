@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KombiyApp.Data.Repository
 {
-	public class StylingManageRepo:Repository<StylingManage>,IStylinManageRepo
+	public class StylingManageRepo : Repository<StylingManage>, IStylinManageRepo
 	{
 		public StylingManageRepo(AppDbContext context) : base(context)
 		{
@@ -23,7 +23,7 @@ namespace KombiyApp.Data.Repository
 		public async Task<IEnumerable<StylingManage>> GetAllWithUsersAsync()
 		{
 			return await AppDbContext.stylingManagers
-				.Include(a=>a.StylingGetUserId)
+				.Include(a => a.StylingGetUserId)
 				.ToListAsync();
 		}
 
@@ -63,4 +63,5 @@ namespace KombiyApp.Data.Repository
 				.SingleOrDefaultAsync(a => a.StylingGetUserId == id);
 		}
 	}
+
 }

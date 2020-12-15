@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using KombniyApp.Core;
 using Microsoft.AspNetCore.Http;
 
+
 namespace KombniyApp.Core
 {
 	public class Product
@@ -16,10 +17,11 @@ namespace KombniyApp.Core
 		}
 		[Key]
 		public int ProductId { get; set; }
-		public IFormFile ImageFile { get; set; }
+		//public IFormFile ImageFile { get; set; }
 		public string ImageSrc { get; set; }
 
 		public int WardrobeId { get; set; }
+		[NotMapped]
 		public Wardrobe Wardrobe { get; set; }
 		public int StlingAndEnvironmentId { get; set; }
 

@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombiyApp.Data", "KombiyApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombniyApp.Core", "KombniyApp.Core\KombniyApp.Core.csproj", "{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KombniyApp.Services", "KombniyApp.Services\KombniyApp.Services.csproj", "{3E4CD469-34E8-4026-9470-2F9FD8331988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4CD469-34E8-4026-9470-2F9FD8331988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4CD469-34E8-4026-9470-2F9FD8331988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4CD469-34E8-4026-9470-2F9FD8331988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4CD469-34E8-4026-9470-2F9FD8331988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

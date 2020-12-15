@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Mail;
-using KombniyAppAccount.Models;
+using KombniyApp.Core;
 namespace KombniyAppAccount.Observer
 {
 	public class UserObserver:Observer

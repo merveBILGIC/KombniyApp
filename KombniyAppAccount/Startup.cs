@@ -1,4 +1,4 @@
-using KombniyAppAccount.Models;
+using KombiyApp.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,7 +32,7 @@ namespace KombniyAppAccount
 				options.Cookie.HttpOnly = true;
 				options.Cookie.IsEssential = true;
 			});
-			services.AddDbContext<DataContext>(options=> options.UseSqlServer(Configuration.GetConnectionString("KombniyAppAccountContextConnection")));
+			services.AddDbContext<AppDbContext>(options=> options.UseSqlServer(Configuration.GetConnectionString("KombniyAppConnection")));
 
 
 		}

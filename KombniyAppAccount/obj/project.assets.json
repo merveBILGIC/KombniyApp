@@ -2710,7 +2710,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "KombniyApp.Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.10"
+          "Microsoft.EntityFrameworkCore": "3.1.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10"
         },
         "compile": {
           "bin/placeholder/KombiyApp.Data.dll": {}
@@ -2730,6 +2731,20 @@
         },
         "runtime": {
           "bin/placeholder/KombniyApp.Core.dll": {}
+        }
+      },
+      "KombniyApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "KombiyApp.Data": "1.0.0",
+          "KombniyApp.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KombniyApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KombniyApp.Services.dll": {}
         }
       }
     }
@@ -8791,11 +8806,18 @@
       "type": "project",
       "path": "../KombniyApp.Core/KombniyApp.Core.csproj",
       "msbuildProject": "../KombniyApp.Core/KombniyApp.Core.csproj"
+    },
+    "KombniyApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../KombniyApp.Services/KombniyApp.Services.csproj",
+      "msbuildProject": "../KombniyApp.Services/KombniyApp.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "KombiyApp.Data >= 1.0.0",
+      "KombniyApp.Core >= 1.0.0",
+      "KombniyApp.Services >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.10",
       "Microsoft.EntityFrameworkCore >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.10",
@@ -8837,6 +8859,12 @@
           "projectReferences": {
             "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
               "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
+            },
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
+            },
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj"
             }
           }
         }

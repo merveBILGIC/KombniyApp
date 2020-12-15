@@ -21,7 +21,7 @@ namespace KombiyApp.Data
 
 			builder
 				.Property(m => m.UserId)
-				.UseIdentityColumn();
+				.IsRequired();
 
 			builder
 				.Property(m => m.Name)
@@ -29,7 +29,8 @@ namespace KombiyApp.Data
 				.HasMaxLength(50);
 
 			builder
-				.ToTable("Users");
+				.HasOne("Users");
+				//.ToTable("User");
 
 		}
 	}

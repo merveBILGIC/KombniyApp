@@ -11,9 +11,8 @@ namespace KombniyApp.Core.Services
 
 		Task<IEnumerable<User>> GetAllWithUser();
 		Task<Wardrobe> GetUserById(int id);
-		Task<IEnumerable<Wardrobe>> GetWardrobeByUserId(int userId);
+		Task<Wardrobe> GetWardrobeByUserId(int userId);
 		Task<Wardrobe> CreateWardrobe(Wardrobe newWardrobe);
-		Task UpdateWardrobe(Wardrobe wardrobeToBeUpdated, Wardrobe wardrobe);
 		Task DeleteWardrobe(Wardrobe wardrobe);
 	}
 }

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KombiyApp.Data\KombiyApp.Data.csproj" />
+    <ProjectReference Include="..\KombniyApp.Core\KombniyApp.Core.csproj" />
+  </ItemGroup>
+
+</Project>

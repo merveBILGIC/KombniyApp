@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using KombniyApp.Core;
 using System.Threading.Tasks;
+using KombniyApp.Core.Models;
 namespace KombniyApp.Core.Services
 {
 	public interface IUser
@@ -12,6 +13,8 @@ namespace KombniyApp.Core.Services
 		Task<User> CreateUser(User newUser);
 		Task UpdateUser(User UserToBeUpdated, User user);
 		Task DeleteUser(User user);
-
+		Task<User> FindUser();
+		Task<PasswordCodeModel> GetPassword(string code);
+		
 	}
 }

@@ -1,4 +1,4 @@
-﻿using KombniyAppAccount.Models;
+﻿using KombniyApp.Core.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;

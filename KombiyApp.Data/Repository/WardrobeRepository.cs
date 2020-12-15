@@ -25,24 +25,31 @@ namespace KombiyApp.Data.Repository
 		public async Task<IEnumerable<Wardrobe>> GetAllWithProductAsync()
 		{
 			return await AppDbContext.Wardrobes
-				.Include(t => t.products)
+				.Include(t => t.Product)
 				.ToListAsync();
 		}
 
 		public Task<Wardrobe> GetWithProductByIdAsync(int id)
 		{
 			return AppDbContext.Wardrobes
-			.Include(m => m.products)
+			.Include(m => m.Product)
+
 			.SingleOrDefaultAsync(m => m.ProductId == id);
 		}
 
 		public async Task<IEnumerable<Wardrobe>> GetAllWithProductByProductIdAsync(int productid)
 		{
 			return await AppDbContext.Wardrobes
-				.Include(m => m.products)
+				.Include(m => m.Product)
 				.Where(m => m.ProductId == productid)
 				.ToListAsync();
 		}
 
+		public async Task<Wardrobe> GetWardrobeByUserId(int userid)
+		{
+			return await AppDbContext.Wardrobes
+				.Include(m => m.WardrobeId)
+				.SingleOrDefaultAsync(m => m.WardrobeId == userid);
+		}
 	}
 }

@@ -7,12 +7,11 @@ namespace KombniyApp.Core.Services
 {
 	public interface IStylingAndEnvironment
 	{
-		Task<IEnumerable<StlingAndEnvironment>> GetAllWithArtist();
-		Task<StlingAndEnvironment> GetMusicById(int id);
-		Task<IEnumerable<StlingAndEnvironment>> GetMusicsByArtistId(int productId);
-		Task<StlingAndEnvironment> CreateMusic(StlingAndEnvironment newStlingAndEvironment);
-		Task UpdateMusic(StlingAndEnvironment stlingAndEnvironmentToBeUpdated, StlingAndEnvironment stlingAndEnvironment);
-		Task DeleteMusic(StlingAndEnvironment stlingAndEnvironment);
+		Task<IEnumerable<StlingAndEnvironment>> GetAllWithProduct();
+		Task<StlingAndEnvironment> GetStlingAndEnvironmentById(int id);
+		Task<IEnumerable<StlingAndEnvironment>> GetStlingAndEnvironmentByProductId(int productId);
+		Task<StlingAndEnvironment> CreateStlingAndEnvironment(StlingAndEnvironment newStlingAndEvironment);
+		Task DeleteStlingAndEnvironment(StlingAndEnvironment stlingAndEnvironment);
 
 	}
 }

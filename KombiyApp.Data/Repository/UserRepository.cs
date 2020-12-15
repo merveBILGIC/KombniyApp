@@ -79,6 +79,12 @@ namespace KombiyApp.Data.Repository
 				.SingleOrDefaultAsync(w => w.Code == code);
 		}
 		
+		public async Task<User>FindUser()
+		{
+			return  AppDbContext.Users
+				.Find(User);
+		
+		}
 
 
 	}

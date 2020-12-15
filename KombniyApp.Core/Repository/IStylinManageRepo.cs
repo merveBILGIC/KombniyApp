@@ -8,7 +8,7 @@ namespace KombniyApp.Core.Repository
 	public interface IStylinManageRepo:IRepository<StylingManage>
 	{
 		Task<IEnumerable<StylingManage>> GetAllWithUsersAsync();
-		Task<StylingManage> GetWithUsersByIdAsync(int id);
+		
 
 		Task<IEnumerable<StylingManage>> GetAllWithGetUsersAsync();
 		Task<StylingManage> GetWithGetUsersByIdAsync(int id);

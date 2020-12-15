@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KombniyApp.Core.Models
 {
 	public class PasswordCodeModel
 	{
-        public int Id { get; set; }
+        
+        public int PaswordId { get; set; }
         public User User { get; set; }
         [Required]
         public int UserId { get; set; }

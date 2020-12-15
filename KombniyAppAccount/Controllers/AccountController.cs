@@ -1,22 +1,33 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
-using KombniyAppAccount.Models;
+using KombniyApp.Core.Models;
+using KombniyApp.Core;
 using Microsoft.AspNetCore.Http;
-using KombniyAppAccount.Manager;
-using KombniyAppAccount.DaO;
-using KombniyAppAccount.UserDaO;
+using KombniyApp.Core.Manage;
+using KombniyApp.Core.Repository;
+using KombniyApp.Core.Services;
+
+
+
 
 
 namespace KombniyAppAccount.Controllers
 {
 	public class AccountController : Controller
     {
-		private UserDao userDao = null;
-		private Daoperations dao = null;
+	    
 		private string code = null;
+		private readonly IUser _Iuser;
+		
 
-		public UserDao UserDao { get => userDao; set => userDao = value; }
+		public AccountController(IUser user)
+		{
+			_Iuser = user;
+
+		}
+
+		
 
 		public IActionResult Index()
 		{
@@ -36,11 +47,13 @@ namespace KombniyAppAccount.Controllers
 			int uid = HttpContext.Session.GetInt32("id").Value;
 			if (uid != 0 && current != null && pass != null)
 			{
-				var user = await getDao().GetUser(uid);
+				var user = await _Iuser.GetUserById(uid);
+
 				if (current.Equals(user.Password))
 				{
 					user.Password = pass;
-					await getDao().Modify(user);
+					//await _Iuser.UpdateUser(userToBeUpdate,user.Password );
+						
 				}
 
 			}
@@ -55,6 +68,7 @@ namespace KombniyAppAccount.Controllers
 			HttpContext.Session.SetInt32("error", 0);
 			return View();
 		}
+		/*
 		public IActionResult Friends()
 		{
 			return View(getDao().FriendList((int)HttpContext.Session.GetInt32("id")));
@@ -63,14 +77,14 @@ namespace KombniyAppAccount.Controllers
 		{
 			return Json(getDao().FriendList((int)HttpContext.Session.GetInt32("id")));
 		}
-
+		*/
 		[HttpPost]
 		public async Task<IActionResult> Login(User model)
 		{
-			User user = await getDao().Find(model);
+			User user = await _Iuser.FindUser();
 			if (user != null)
 			{
-				HttpContext.Session.SetInt32("id", user.Id);
+				HttpContext.Session.SetInt32("id", user.UserId);
 				HttpContext.Session.SetString("name", user.Name);
 				HttpContext.Session.SetString("surname", user.Surname);
 				HttpContext.Session.SetString("username", user.Username);
@@ -100,36 +114,39 @@ namespace KombniyAppAccount.Controllers
 				return Redirect("Index");
 			}
 
-			return View(await getDao().GetUser(id.Value));
+			return View(await _Iuser.GetUserById(id.Value));
+				
 		}
 		[HttpPost]
 		public async Task<IActionResult> Register(User user)
 		{
-			await getDao().Create(user);
+			User newUser = user;
+			await _Iuser.CreateUser(newUser);
+			
 			return Json(true);
 		}
-		public async Task<IActionResult> Remove(int Id)
+		/*public async Task<IActionResult> Remove(int Id)
 		{
 			int? uid = HttpContext.Session.GetInt32("id");
 			await getDao().RemoveFriend(uid.Value, Id);
 			return Redirect("Friends");
 		}
-
+		
 		public async Task<IActionResult> SendACode(string email)
 		{
-			User tmp = await getDao().Find(email);
+			User tmp = await _Iuser.Find(email);
 
 			if (tmp != null)
 			{
-				await MailManager.ResetPasswordCode(email, getCode());
-				await getDao().InserCode(new PasswordCode { UserId = tmp.Id, Code = getCode() });
+				await MailManage.ResetPasswordCode(email, getCode());
+				await getDao().InserCode(new PasswordCodeModel { UserId = tmp.UserId, Code = getCode() });
 			}
 			else
 			{
 				return Json(false);
 			}
 			return Redirect("ResetPassword");
-		}
+		}*/
 
 		public IActionResult Settings()
 		{
@@ -148,26 +165,33 @@ namespace KombniyAppAccount.Controllers
 			return View();
 		}
 
-		[HttpPost]
+		/*[HttpPost]
 		public async Task<IActionResult> UpdateProfile(User usr)
 		{
 			await getDao().Modify(usr);
 			return Json(true);
 		}
 
-		public async Task<IActionResult> UpdatePassword(string Code, string Password)
+		public async Task<IActionResult> UpdatePassword(string code, string Password)
 		{
-			PasswordCode psd = await getDao().getPasswordCode(Code);
+
+			PasswordCodeModel psd = await _Iuser.GetPassword(code);
+			User userToBeUpdate;
+				
 			if (psd != null)
 			{
-				User user = await getDao().GetUser(psd.UserId);
+				User user = await _Iuser.GetUserById(psd.PaswordId);
+					
 				user.Password = Password;
-				await getDao().Modify(user);
-				await getDao().RemoveCode(psd);
+
+				await _Iuser.UpdateUser(userToBeUpdate.Password, user.Password);
+					
+				await _Iuser.(psd);
 			}
 
 			return RedirectToAction(nameof(Index));
 		}
+		*/
 
 
 		public string getCode()
@@ -186,9 +210,5 @@ namespace KombniyAppAccount.Controllers
 			return code;
 		}
 
-		public UserDao getDao()
-		{
-			return Daoperations.GetUserDao();
-		}
 	}
 }
