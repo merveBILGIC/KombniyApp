@@ -3,13 +3,14 @@ using System.ComponentModel.DataAnnotations;
 using KombniyApp.Core;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KombniyApp.Core
 {
 	public class User
 
 	{
-		[Key]
+		
 		public int UserId { get; set; }
 		[Required]
 		[StringLength(50)]
@@ -32,17 +33,13 @@ namespace KombniyApp.Core
 
 		[StringLength(1000)]
 		public string About { get; set; } = "Bir bilgi girilmedi";
-
+		
 		public int WardrobeId { get; set; }
 
 		public Wardrobe Wardrobe { get; set; }
 
 		public IEnumerable<Wardrobe> Wardrobes { get; set; }
-
-		public int MatesId { get; set; }
-		public UserMates mates { get; set; }
-		public IEnumerable<UserMates> Mates { get; set; }
-
-	
+		
+		
 	}
 }

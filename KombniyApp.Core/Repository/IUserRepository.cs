@@ -10,7 +10,7 @@ namespace KombniyApp.Core.Repository
 	{
 		Task<IEnumerable<User>> GetAllWithWardrobeAsync();
 		Task<User> GetWithWardrobeByIdAsync(int id);
-		Task<User> GetWithUserMatesByIdAsync(int id);
+		//Task<User> GetWithUserMatesByIdAsync(int id);
 		Task<User> GetUser(int id);
 		Task<PasswordCodeModel> GetPassword(string code);
 		Task<User> FindUser();

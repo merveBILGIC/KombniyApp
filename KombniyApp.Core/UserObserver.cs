@@ -12,14 +12,14 @@ namespace KombniyApp.Core
 		{
 			User user = (User)obj;
 			string mailto = user.Email;
-			string subject = "Task-Core Kayıt";
-			string text = "<h1><b>Sayın " + user.Name + " " + user.Surname + "</b></h1> Task-Core Proje Planlama ve Yönetim sistemine hoşgeldiniz! ";
-			string sender = "noreplytaskcore@gmail.com";
+			string subject = "KombniyApp Kayıt";
+			string text = "<h1><b>Sayın " + user.Name + " " + user.Surname + "</b></h1> Kombniyapp Proje Planlama ve Yönetim sistemine hoşgeldiniz! ";
+			string sender = "noreplykombniyapp@gmail.com";
 			MailMessage msg = new MailMessage(sender, mailto, subject, text);
 			msg.IsBodyHtml = true;
 			SmtpClient sc = new SmtpClient("smtp.gmail.com", 587);
 			sc.UseDefaultCredentials = false;
-			NetworkCredential cre = new NetworkCredential(sender, "Taskcore2811");
+			NetworkCredential cre = new NetworkCredential(sender, "Kombniyapp2811");
 			sc.Credentials = cre;
 			sc.EnableSsl = true;
 			sc.Send(msg);
@@ -28,14 +28,14 @@ namespace KombniyApp.Core
 		{
 			User user = (User)obj;
 			string mailto = user.Email;
-			string subject = "Task-Core";
+			string subject = "KombniyApp";
 			string text = "<h1><b>Sayın " + user.Name + " " + user.Surname + "</b></h1> Profil bilgileriniz güncellenmiştir.";
-			string sender = "noreplytaskcore@gmail.com";
+			string sender = "noreplykombniyapp@gmail.com";
 			MailMessage msg = new MailMessage(sender, mailto, subject, text);
 			msg.IsBodyHtml = true;
 			SmtpClient sc = new SmtpClient("smtp.gmail.com", 587);
 			sc.UseDefaultCredentials = false;
-			NetworkCredential cre = new NetworkCredential(sender, "Taskcore2811");
+			NetworkCredential cre = new NetworkCredential(sender, "KombniyApp2811");
 			sc.Credentials = cre;
 			sc.EnableSsl = true;
 			sc.Send(msg);

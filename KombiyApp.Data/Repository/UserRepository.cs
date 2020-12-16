@@ -45,8 +45,8 @@ namespace KombiyApp.Data.Repository
 				.Include(a => a.Wardrobe)
 				.SingleOrDefaultAsync(a => a.UserId == id);
 		}
-		
-	    public Task<User> GetWithUserMatesByIdAsync(int id)
+
+		/*public Task<User> GetWithUserMatesByIdAsync(int id)
 		{
 
 			return AppDbContext.Users
@@ -63,8 +63,8 @@ namespace KombiyApp.Data.Repository
 				flist.Add(tmp);
 			}
 			return flist;
-			*/
-		}
+			
+		}*/
 		public Task<User>Find(string email)
 		{
 			return AppDbContext.Users

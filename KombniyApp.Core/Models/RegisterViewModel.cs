@@ -7,6 +7,7 @@ namespace KombniyApp.Core.Models
 {
 	public class RegisterViewModel
 	{
+		[Key]
 		public int registerId { get; set; }
 
 
