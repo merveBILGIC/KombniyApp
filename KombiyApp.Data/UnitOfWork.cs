@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KombiyApp.Data
 {
-	class UnitOfWork : IUnitOfWork
+	public class UnitOfWork : IUnitOfWork
 	{
 		public UnitOfWork(AppDbContext context)
 		{

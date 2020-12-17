@@ -10,7 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using KombniyApp.Services;
+using KombniyApp.Core.Services;
+using KombniyApp.Core.Repository;
+using KombiyApp.Data.Repository;
 namespace KombniyAppAccount
 {
 	public class Startup
@@ -27,14 +30,15 @@ namespace KombniyAppAccount
 		{
 			services.AddControllersWithViews();
 			services.AddDistributedMemoryCache();
+			services.AddTransient<IUnitOfWork, UnitOfWork>();
+			services.AddTransient<IUser, UserServices>();
 			services.AddSession(options =>
 			{
 				options.Cookie.HttpOnly = true;
 				options.Cookie.IsEssential = true;
 			});
 			services.AddDbContext<AppDbContext>(options=> options.UseSqlServer(Configuration.GetConnectionString("KombniyAppConnection")));
-
-
+			
 		}
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

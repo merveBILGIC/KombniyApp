@@ -46,6 +46,6 @@ namespace KombniyApp.Core.Models
 		[DataType(DataType.Password)]
 		public string PasswordTekrar { get; set; }
 
-		public string City { get; set; }
+		
 	}
 }

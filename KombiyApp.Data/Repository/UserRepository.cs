@@ -10,7 +10,7 @@ using KombniyApp.Core.Models;
 
 namespace KombiyApp.Data.Repository
 {
-	class UserRepository : Repository<User>, IUserRepository
+	public class UserRepository : Repository<User>, IUserRepository
 	{
 		public static UserRepository instance = null;
 		public User User = null;
@@ -81,7 +81,7 @@ namespace KombiyApp.Data.Repository
 		
 		public async Task<User>FindUser()
 		{
-			return  AppDbContext.Users
+			return AppDbContext.Users
 				.Find(User);
 		
 		}
