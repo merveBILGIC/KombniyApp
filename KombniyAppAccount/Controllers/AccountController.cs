@@ -89,7 +89,7 @@ namespace KombniyAppAccount.Controllers
 				HttpContext.Session.SetString("surname", user.Surname);
 				HttpContext.Session.SetString("username", user.Username);
 				HttpContext.Session.SetInt32("error", 0);
-				return Redirect("/Account/Index");
+				return Redirect("/Home/Index");
 			}
 			HttpContext.Session.SetInt32("error", 1);
 			return RedirectToAction(nameof(Index));
@@ -117,6 +117,8 @@ namespace KombniyAppAccount.Controllers
 			return View(await _Iuser.GetUserById(id.Value));
 				
 		}
+
+
 		[HttpPost]
 		public async Task<IActionResult> Register(User user)
 		{
