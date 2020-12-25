@@ -23,7 +23,27 @@ namespace KombniyAppAccount.Controllers
 			return View();
 		}
 
+		public IActionResult About()
+		{
+			return View();
+		}
+
 		public IActionResult Privacy()
+		{
+			return View();
+		}
+
+		public IActionResult ContactUs()
+		{
+			return View();
+		}
+
+		public IActionResult Faq()
+		{
+			return View();
+		}
+
+		public IActionResult ProfilePage()
 		{
 			return View();
 		}
