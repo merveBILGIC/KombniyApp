@@ -354,3 +354,4 @@ C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyAppAccount
 C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
 C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\FAQ.cshtml.g.cs
 C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProfilePage.cshtml.g.cs
+C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\Payment.cshtml.g.cs

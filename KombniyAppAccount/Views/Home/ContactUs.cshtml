@@ -94,9 +94,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="profilepage">Profil Sayfam</a>
-                                    <a class="dropdown-item" !-- link olacak -->Kombinlerim</a>
-                                    <a class="dropdown-item" !-- link olacak -->Dolabım</a>
-                                    <a class="dropdown-item" !-- link olacak -->Arkadaşlarım</a>
+                                    <a class="dropdown-item" href="payment">Styling Satın Al</a>
                                 </div>
                             </li>
                         </div>
@@ -131,63 +129,63 @@
 
 
         <section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay" style="background-image: url(../../wwwroot/img/1212.jpg)">
-            <div class="section-content bg-white p-5 shadow ">
+            <div class="section-content bg-white p-5">
                 <div class="container">
-                    <div class="section-content">
-                        <div class="row">
+                    <div class="section-content bg-white p-5">
+                        <div class="section-content">
+                            <div class="row">
+
+                                <div class="section-content bg-white p-5 shadow ">
+
+                                    <div class="heading-section text-center">
+
+                                        <h2>
+                                            Bize Ulaşın
+                                        </h2>
+                                        <span class="subheading">
+                                            Herhangi bir sorun, şikayet veya öneriniz var ise bize yazmaya çekinmeyin! :)
+                                        </span>
+                                    </div>
+
+                                    <form method="post" name="contact-us" action="">
+                                        <div class="row">
+                                            <div class="col-md-12 form-group">
+                                                <input type="text" class="form-control" id="name" name="name" maxlength="100" placeholder="Ad Soyad">
+                                            </div>
+                                            <div class="col-md-12 form-group">
+                                                <input type="text" class="form-control" id="email" name="email" maxlength="100" placeholder="E-posta">
+                                            </div>
 
 
-                            <div class="section-content bg-white p-5 shadow ">
+                                            <div class="col-md-12 form-group">
+                                                <select class="form-control" id="sss">
+                                                    <option disabled="" selected="">Seçiniz</option>
+                                                    <option>Sorun</option>
+                                                    <option>Öneri</option>
+                                                    <option>Şikayet</option>
+                                                    <option>Stylist</option>
 
-                                <div class="heading-section text-center">
+                                                </select>
+                                            </div>
 
-                                    <h2>
-                                        Bize Ulaşın
-                                    </h2>
-                                    <span class="subheading">
-                                        Herhangi bir sorun, şikayet veya öneriniz var ise bize yazmaya çekinmeyin! :)
-                                    </span>
+                                            <div class="col-md-12 form-group">
+                                                <textarea class="form-control" style="min-height:200px; max-height: 200px " id="message" name="message" maxlength="1000" placeholder="Mesajınız"></textarea>
+                                            </div>
+
+
+                                            <div class="col-md-12 text-center">
+                                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Gönder</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
 
-                                <form method="post" name="contact-us" action="">
-                                    <div class="row">
-                                        <div class="col-md-12 form-group">
-                                            <input type="text" class="form-control" id="name" name="name" maxlength="100" placeholder="Ad Soyad">
-                                        </div>
-                                        <div class="col-md-12 form-group">
-                                            <input type="text" class="form-control" id="email" name="email" maxlength="100" placeholder="E-posta">
-                                        </div>
-
-
-                                        <div class="col-md-12 form-group">
-                                            <select class="form-control" id="sss">
-                                                <option disabled="" selected="">Seçiniz</option>
-                                                <option>Sorun</option>
-                                                <option>Öneri</option>
-                                                <option>Şikayet</option>
-                                                <option>Stylist</option>
-
-                                            </select>
-                                        </div>
-
-                                        <div class="col-md-12 form-group">
-                                            <textarea class="form-control" style="min-height:200px; max-height: 200px " id="message" name="message" maxlength="1000" placeholder="Mesajınız"></textarea>
-                                        </div>
-
-
-                                        <div class="col-md-12 text-center">
-                                            <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Gönder</button>
-                                        </div>
-                                    </div>
-                                </form>
                             </div>
 
                         </div>
-
                     </div>
                 </div>
-            </div>
-        </section>
+</section>
 
         <!-- End of Reservation Section -->
         <footer class="mastfoot pb-5 bg-white section-padding pb-0">
@@ -227,7 +225,7 @@
                                 <div class="form-group">
                                     <input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="E-posta">
                                 </div>
-                                <button type="submit" class="btn btn-primary w-100 renk">Abone Ol</button>
+                                <button type="submit" class="btn btn-primary pl-lg-5" style="align-content:center">Abone Ol</button>
                             </form>
                         </div>
 
