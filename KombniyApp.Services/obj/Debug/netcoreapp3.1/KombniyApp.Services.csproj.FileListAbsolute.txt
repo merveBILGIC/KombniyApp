@@ -12,3 +12,5 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.csproj.CopyComplete
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.pdb
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb

@@ -174,3 +174,8 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\n
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombiyApp.Data.pdb
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.Core.pdb
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.Services.pdb
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb

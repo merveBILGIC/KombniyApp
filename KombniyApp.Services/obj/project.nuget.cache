@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IffH1jF7K/W8b9yjlI0sdRTNh7RfPmx9LpouRdhqbYiTyADIwi9IpEO5ydlVm5+LfCpMFdOnf2tknzxad2IIlQ==",
+  "dgSpecHash": "jDSUWSKHD/cWkNpQi38lZWm7g7cIPvqTWg1ia0gl9Z2+TXGN7p62YHRU8me0oT6FfUOrfWVd1hK6u8+m8uhlZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

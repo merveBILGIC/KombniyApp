@@ -14,6 +14,14 @@ using KombniyApp.Services;
 using KombniyApp.Core.Services;
 using KombniyApp.Core.Repository;
 using KombiyApp.Data.Repository;
+using FluentValidation;
+using FluentValidation.Validators;
+using FluentValidation.AspNetCore;
+using KombniyApp.Core;
+using KombniyAppAccount.Validation;
+using KombniyAppAccount.Models;
+
+
 namespace KombniyAppAccount
 {
 	public class Startup
@@ -38,7 +46,10 @@ namespace KombniyAppAccount
 				options.Cookie.IsEssential = true;
 			});
 			services.AddDbContext<AppDbContext>(options=> options.UseSqlServer(Configuration.GetConnectionString("KombniyAppConnection")));
-			
+
+			services.AddControllersWithViews().AddFluentValidation();
+			services.AddTransient<IValidator<User>, UserValidator>();
+			services.AddTransient<IValidator<UserLoginViewModels>, UserLoginValidator>();
 		}
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

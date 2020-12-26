@@ -14,6 +14,8 @@ namespace KombniyApp.Core.Repository
 		Task<User> GetUser(int id);
 		Task<PasswordCodeModel> GetPassword(string code);
 		Task<User> FindUser();
+		
+			
 		//Task<bool> InsertCode();
 
 	}

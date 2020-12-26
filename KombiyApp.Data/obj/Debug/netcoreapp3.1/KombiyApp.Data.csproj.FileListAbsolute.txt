@@ -13,3 +13,5 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netc
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netcoreapp3.1\KombiyApp.Data.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netcoreapp3.1\KombiyApp.Data.pdb
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\obj\Debug\netcoreapp3.1\KombiyApp.Data.genruntimeconfig.cache
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombiyApp.Data\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eHborv38ESoZB+BJQfbhg+wG3zMX4tuQuigpa/0hMzxPBUbuvB829QPiiRWqz5JkOlRe0RVUn5iHjr8DS102mw==",
+  "dgSpecHash": "UoM8hrZL/e+sQDLBX+MPVaYvhiO0IJbcC21HKSmHMqwtY8n5YxfVA1m9MizsNgOZxRALU+W3V6dWaglqvVHAuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.10\\microsoft.aspnetcore.cryptography.internal.3.1.10.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.10\\microsoft.aspnetcore.cryptography.keyderivation.3.1.10.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

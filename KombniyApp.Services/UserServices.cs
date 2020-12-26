@@ -5,6 +5,7 @@ using KombniyApp.Core.Services;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using KombniyApp.Core.Models;
+using KombniyApp.DTO;
 
 namespace KombniyApp.Services
 {
@@ -63,7 +64,17 @@ namespace KombniyApp.Services
 			return await _unitOfWork.Users.GetPassword(code);
 		}
 
-		
-			
+		public UserDTO LoginUser(UserDTO loginUser)
+		{
+			throw new NotImplementedException();
+				
+		}
+	    public UserDTO CheckUser(string Username,string Email)
+		{
+			var chechUser = _unitOfWork.Users.Find(z => (z.Email == Email || z.Username == Username));
+			//MapperFactory.CurrentMapper.Map<UserDTO>(checkUser);
+			throw new NotImplementedException();
+		}
+
 	}
 }
