@@ -1,0 +1,358 @@
+﻿<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+
+<html lang="tr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> KombinyApp </title>
+    <meta name="description" content="Resto">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="~/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="~/vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="~/vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/css/style.min.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+
+
+<body data-spy="scroll" data-target="#navbar">
+
+
+
+    <div id="canvas-overlay"></div>
+    <div class="boxed-page">
+        <nav id="navbar-header" class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="/">
+                    <img src="/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="lnr lnr-menu"></span>
+                </button>
+
+
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex justify-content-between">
+                        <li class="nav-item only-desktop">
+                            <a class="nav-link" id="side-nav-open" href="#">
+                                <span class="lnr lnr-menu"></span>
+                            </a>
+                        </li>
+                        <div class="d-flex flex-lg-row flex-column">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index">Ana Sayfa </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about">Hakkimizda </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Profilim
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="profilepage">Profil Sayfam</a>
+                                    <a class="dropdown-item" !--="" link="" olacak="" --="">Kombinlerim</a>
+                                    <a class="dropdown-item" !--="" link="" olacak="" --="">Dolabım</a>
+                                    <a class="dropdown-item" !--="" link="" olacak="" --="">Arkadaşlarım</a>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+
+                    <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                        <img src="/img/logo.png" alt="">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-between">
+                        <div class="d-flex flex-lg-row flex-column">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="menu.htm">Kombin Yap </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq">SSS </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="contactus">Bize Ulaşın </a>
+                            </li>
+                        </div>
+                        <li class="nav-item">
+                            <a id="side-search-open" class="nav-link" href="#">
+                                <span class="lnr lnr-magnifier"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+        </nav>
+
+        <section id="gtco-reservation" class="bg-fixed bg-white section-padding overlay>
+            <div class=" section-content=" " bg-white=" " p-5=" " shadow=" " " ="" data-stellar-background-ratio="0.8">
+                <div class="container">
+                    <div class="section-content">
+                        <div class="row">
+
+
+                            <div class="section-content bg-white p-5 shadow ">
+
+                                <div class="heading-section text-center">
+
+                                    <h2>
+                                        Profil Sayfam
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="tab-content">
+                        <!-- BAŞ GENEL INFO TAB -->
+                        <div class="tab-pane active" id="tab_1">
+                            <form action="#" class="horizontal-form">
+                                <div class="form-body">
+                                    <!--Genel Bilgiler-->
+
+                                    <div class="row">
+
+                                        <div class="col-md-6 form-group">
+                                            <label class="control-label">Ad</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <!--/span-->
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label">Soyad</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <!--/span-->
+                                        <!--/span-->
+
+                                        <div class="col-md-6 form-group">
+                                            <label class="control-label">İl </label>
+
+                                            <select class="form-control" id="il">
+                                                <option disabled="" selected=""> Seçiniz</option>
+                                                <option> Adana</option>
+                                                <option> Adıyaman</option>
+                                                <option> Afyonkarahisar</option>
+                                                <option> Ağrı</option>
+                                                <option> Amasya</option>
+                                                <option> Ankara</option>
+                                                <option> Antalya</option>
+                                                <option> Artvin</option>
+                                                <option> Aydın</option>
+                                                <option> Balıkesir</option>
+                                                <option> Bilecik</option>
+                                                <option> Bingöl</option>
+                                                <option> Bitlis</option>
+                                                <option> Bolu</option>
+                                                <option> Burdur</option>
+                                                <option> Bursa</option>
+                                                <option> Çanakkale</option>
+                                                <option> Çankırı</option>
+                                                <option> Çorum</option>
+                                                <option> Denizli</option>
+                                                <option> Diyarbakır</option>
+                                                <option> Edirne</option>
+                                                <option> Elazığ</option>
+                                                <option> Erzincan</option>
+                                                <option> Erzurum</option>
+                                                <option> Eskişehir</option>
+                                                <option> Gaziantep</option>
+                                                <option> Giresun</option>
+                                                <option> Gümüşhane</option>
+                                                <option> Hakkari</option>
+                                                <option> Hatay</option>
+                                                <option> Isparta</option>
+                                                <option> İçel (Mersin)</option>
+                                                <option> İstanbul</option>
+                                                <option> İzmir</option>
+                                                <option> Kars</option>
+                                                <option> Kastamonu</option>
+                                                <option> Kayseri</option>
+                                                <option> Kırklareli</option>
+                                                <option> Kırşehir</option>
+                                                <option> Kocaeli</option>
+                                                <option> Konya</option>
+                                                <option> Kütahya</option>
+                                                <option> Malatya</option>
+                                                <option> Manisa</option>
+                                                <option> K.maraş</option>
+                                                <option> Mardin</option>
+                                                <option> Muğla</option>
+                                                <option> Muş</option>
+                                                <option> Nevşehir</option>
+                                                <option> Niğde</option>
+                                                <option> Ordu</option>
+                                                <option> Rize</option>
+                                                <option> Sakarya</option>
+                                                <option> Samsun</option>
+                                                <option> Siirt</option>
+                                                <option> Sinop</option>
+                                                <option> Sivas</option>
+                                                <option> Tekirdağ</option>
+                                                <option> Tokat</option>
+                                                <option> Trabzon</option>
+                                                <option> Tunceli</option>
+                                                <option> Şanlıurfa</option>
+                                                <option> Uşak</option>
+                                                <option> Van</option>
+                                                <option> Yozgat</option>
+                                                <option> Zonguldak</option>
+                                                <option> Aksaray</option>
+                                                <option> Bayburt</option>
+                                                <option> Karaman</option>
+                                                <option> Kırıkkale</option>
+                                                <option> Batman</option>
+                                                <option> Şırnak</option>
+                                                <option> Bartın</option>
+                                                <option> Ardahan</option>
+                                                <option> Iğdır</option>
+                                                <option> Yalova</option>
+                                                <option> Karabük</option>
+                                                <option> Kilis</option>
+                                                <option> Osmaniye</option>
+                                                <option> Düzce</option>
+                                            </select>
+                                        </div>
+                                        <!--/span-->
+                                        <!--/span-->
+                                        <!--/span-->
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label">Yaş</label>
+                                                <select class="form-control" id="il">
+                                                    <option disabled="" selected=""> Seçiniz</option>
+                                                    <option> 18-24</option>
+                                                    <option> 25-30</option>
+                                                    <option> 31-36</option>
+                                                    <option> 36+</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+
+                                        <div class="col-md-6 form-group">
+
+                                            <label class="control-label">Profil Fotoğrafı</label>
+
+
+
+
+
+                                            <div>
+                                                <img class="avatar" id="blah" src="#" alt="Fotografin">
+                                                <input type="file" id="imgInp" accept="image/*">
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+            
+
+
+                <footer class="mastfoot pb-5 bg-white section-padding pb-0">
+                    <div class="inner container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="footer-widget pr-lg-5 pr-0">
+                                    <img src="~/img/logo.png" class="img-fluid footer-logo mb-3" alt="">
+                                    <p>Bizi sosyal medyadan takip etmeyi unutma! :) </p>
+                                    <nav class="nav nav-mastfoot justify-content-start">
+                                        <a class="nav-link" href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a class="nav-link" href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a class="nav-link" href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </nav>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="footer-widget px-lg-5 px-0">
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="footer-widget pl-lg-5 pl-0">
+                                    <h4>Abone Ol</h4>
+                                    <p>Yenilikleri takip etmek istersen e-posta adresini yazman ve Abone Ol butonuna tıklaman yeterli. :)</p>
+                                    <form id="newsletter">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="E-posta">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100 renk">Abone Ol</button>
+                                    </form>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-12 d-flex align-items-center">
+                            <p class="mx-auto text-center mb-0"> Copyright 2020. All Right Reserved. </p>
+                        </div>
+                </footer>
+            
+
+                                        <!-- External JS -->
+                                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+                                        <script src="~/vendor/bootstrap/popper.min.js"></script>
+                                        <script src="~/vendor/bootstrap/bootstrap.min.js"></script>
+                                        <script src="~/vendor/select2/select2.min.js "></script>
+                                        <script src="~/vendor/owlcarousel/owl.carousel.min.js"></script>
+                                        <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+                                        <script src="~/vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+                                        <!-- Main JS -->
+                                        <script src="~/js/app.min.js"></script>
+</body>
+</html>
+

@@ -5,14 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="image\Index.jpeg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="image\Index.jpeg">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
+    <None Include="wwwroot\vendor\home\bootstrap\bootstrap.min.js" />
+    <None Include="wwwroot\vendor\home\bootstrap\popper.min.js" />
+    <None Include="wwwroot\vendor\home\owlcarousel\owl.carousel.min.js" />
+    <None Include="wwwroot\vendor\home\select2\select2.min.js" />
+    <None Include="wwwroot\vendor\home\stellar\jquery.stellar.js" />
   </ItemGroup>
 
   <ItemGroup>
