@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UoM8hrZL/e+sQDLBX+MPVaYvhiO0IJbcC21HKSmHMqwtY8n5YxfVA1m9MizsNgOZxRALU+W3V6dWaglqvVHAuQ==",
+  "dgSpecHash": "8yt8gadLJADJnJipe/LFJHuTlp7Otzh6rcLyLUTHgriVqCDSEWqC8ZTJGv2lesRSv8xzI1a0VyN9ptgFsqvHdA==",
   "success": true,
   "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
   "expectedPackageFiles": [
@@ -88,6 +88,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\stripe.net\\39.31.0\\stripe.net.39.31.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

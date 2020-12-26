@@ -20,6 +20,8 @@ using FluentValidation.AspNetCore;
 using KombniyApp.Core;
 using KombniyAppAccount.Validation;
 using KombniyAppAccount.Models;
+using KombniyAppAccount.PaymentServices;
+using Stripe;
 
 
 namespace KombniyAppAccount
@@ -29,6 +31,7 @@ namespace KombniyAppAccount
 		public Startup(IConfiguration configuration)
 		{
 			Configuration = configuration;
+			
 		}
 
 		public IConfiguration Configuration { get; }
@@ -36,8 +39,10 @@ namespace KombniyAppAccount
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			ConfigureStripe();
 			services.AddControllersWithViews();
 			services.AddDistributedMemoryCache();
+			services.AddScoped<ICardPaymentServices, CardPaymentServices>();
 			services.AddTransient<IUnitOfWork, UnitOfWork>();
 			services.AddTransient<IUser, UserServices>();
 			services.AddSession(options =>
@@ -50,6 +55,13 @@ namespace KombniyAppAccount
 			services.AddControllersWithViews().AddFluentValidation();
 			services.AddTransient<IValidator<User>, UserValidator>();
 			services.AddTransient<IValidator<UserLoginViewModels>, UserLoginValidator>();
+		}
+
+		private void ConfigureStripe()
+		{
+			var stripeApiKey = Configuration["Stripe:ApiKey"];
+
+			StripeConfiguration.SetApiKey(stripeApiKey);
 		}
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -70,7 +82,9 @@ namespace KombniyAppAccount
 		
 			app.UseRouting();
 
-			app.UseAuthorization();
+			app.UseAuthorization(); 
+
+			
 
 			app.UseEndpoints(endpoints =>
 			{
