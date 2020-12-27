@@ -82,10 +82,11 @@ namespace KombiyApp.Data.Repository
 		public async Task<User>FindUser()
 		{
 			return AppDbContext.Users
+				
 				.Find(User);
 		
 		}
-
+		 
 
 	}
 }

@@ -30,6 +30,7 @@
   <ItemGroup>
     <ProjectReference Include="..\KombiyApp.Data\KombiyApp.Data.csproj" />
     <ProjectReference Include="..\KombniyApp.Core\KombniyApp.Core.csproj" />
+    <ProjectReference Include="..\KombniyApp.DTO\KombniyApp.DTO.csproj" />
     <ProjectReference Include="..\KombniyApp.Services\KombniyApp.Services.csproj" />
   </ItemGroup>
 

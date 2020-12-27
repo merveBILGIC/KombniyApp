@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj": {}
+    "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
+    "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj",
         "projectName": "KombiyApp.Data",
-        "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj",
-        "packagesPath": "C:\\Users\\Merilin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj",
+        "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Merilin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
-                "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
               }
             }
           }
@@ -75,26 +78,122 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
+    "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
         "projectName": "KombniyApp.Core",
-        "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
-        "packagesPath": "C:\\Users\\Merilin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\obj\\",
+        "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
+        "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Merilin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj",
+        "projectName": "KombniyApp.DTO",
+        "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj",
+        "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,12 +218,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Http.Features": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -135,26 +228,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj": {
+    "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj",
         "projectName": "KombniyApp.Services",
-        "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj",
-        "packagesPath": "C:\\Users\\Merilin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\obj\\",
+        "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj",
+        "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Merilin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,11 +270,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
-                "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
               },
-              "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
-                "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
               }
             }
           }
@@ -196,26 +298,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj": {
+    "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
+        "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
         "projectName": "KombniyAppAccount",
-        "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
-        "packagesPath": "C:\\Users\\Merilin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\obj\\",
+        "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
+        "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Merilin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,14 +343,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
-                "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
               },
-              "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
-                "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
               },
-              "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj": {
-                "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj"
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj"
+              },
+              "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj": {
+                "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj"
               }
             }
           }
@@ -290,6 +407,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -298,7 +425,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

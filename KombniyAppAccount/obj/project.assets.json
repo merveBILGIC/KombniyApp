@@ -2,6 +2,44 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "FluentValidation/9.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/9.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "9.3.0",
+          "FluentValidation.DependencyInjectionExtensions": "9.3.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/9.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "9.3.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.10": {
         "type": "package",
         "compile": {
@@ -2718,12 +2756,18 @@
         },
         "runtime": {
           "bin/placeholder/KombiyApp.Data.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "KombniyApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "FluentValidation": "9.3.0",
+          "FluentValidation.AspNetCore": "9.3.0",
+          "KombniyApp.DTO": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.1"
         },
         "compile": {
@@ -2731,6 +2775,19 @@
         },
         "runtime": {
           "bin/placeholder/KombniyApp.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "KombniyApp.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/KombniyApp.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KombniyApp.DTO.dll": {}
         }
       },
       "KombniyApp.Services/1.0.0": {
@@ -2745,11 +2802,64 @@
         },
         "runtime": {
           "bin/placeholder/KombniyApp.Services.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
   "libraries": {
+    "FluentValidation/9.3.0": {
+      "sha512": "C44l6Ih+YwpED/TsXfl6LIq6Z4wLXahstnr6T70uUg1Hs7/bLBKKAo9Nl0sLhVjDE8TA+fF+O3IM4nDrwabcSQ==",
+      "type": "package",
+      "path": "fluentvalidation/9.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.9.3.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/9.3.0": {
+      "sha512": "0ZKHVvNIVgZEGgCe8z4NyVoPaCmM0kTRM0EySC23Enuc4jzBdhI+LtGhcvkF7lAulNlxR2S9IDnLibOM6RDaHg==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/9.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp2.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp2.1/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/9.3.0": {
+      "sha512": "5PnAIlsApzWPp9rjxfu3xVWSj2qMDeFnEE3P4yx/oIQO1aLhPEEn4yW7JiydP9kpQKAtZ53qwNaOoQ1xSxajuA==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/9.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.10": {
       "sha512": "s5jFewA59+K/MXnib5eC/WVCDyL4EvSVtBzvXmAlTcZ9iBqqw+4oyFWP5hHy2NZuynjvKDFsokR9zEDrdEwLYA==",
       "type": "package",
@@ -8807,6 +8917,11 @@
       "path": "../KombniyApp.Core/KombniyApp.Core.csproj",
       "msbuildProject": "../KombniyApp.Core/KombniyApp.Core.csproj"
     },
+    "KombniyApp.DTO/1.0.0": {
+      "type": "project",
+      "path": "../KombniyApp.DTO/KombniyApp.DTO.csproj",
+      "msbuildProject": "../KombniyApp.DTO/KombniyApp.DTO.csproj"
+    },
     "KombniyApp.Services/1.0.0": {
       "type": "project",
       "path": "../KombniyApp.Services/KombniyApp.Services.csproj",
@@ -8817,6 +8932,7 @@
     ".NETCoreApp,Version=v3.1": [
       "KombiyApp.Data >= 1.0.0",
       "KombniyApp.Core >= 1.0.0",
+      "KombniyApp.DTO >= 1.0.0",
       "KombniyApp.Services >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.10",
       "Microsoft.EntityFrameworkCore >= 3.1.10",
@@ -8827,19 +8943,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Merilin\\.nuget\\packages\\": {}
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
+      "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
       "projectName": "KombniyAppAccount",
-      "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
-      "packagesPath": "C:\\Users\\Merilin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyAppAccount\\obj\\",
+      "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\KombniyAppAccount.csproj",
+      "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyAppAccount\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Merilin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\merve bilgiç\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8853,14 +8973,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
-              "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombiyApp.Data\\KombiyApp.Data.csproj"
             },
-            "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
-              "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
             },
-            "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj": {
-              "projectPath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj"
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj"
+            },
+            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Services\\KombniyApp.Services.csproj"
             }
           }
         }
@@ -8914,6 +9037,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8922,7 +9055,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

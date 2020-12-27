@@ -12,17 +12,5 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.csproj.CopyComplete
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.pdb
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.Services.deps.json
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.Services.dll
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.Services.pdb
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombiyApp.Data.dll
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.Core.dll
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombiyApp.Data.pdb
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.Core.pdb
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.csprojAssemblyReference.cache
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.AssemblyInfoInputs.cache
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.AssemblyInfo.cs
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.csproj.CoreCompileInputs.cache
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.csproj.CopyComplete
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.dll
-C:\Users\Merilin\OneDrive\Документи\GitHub\KombniyApp\KombniyApp.Services\obj\Debug\netcoreapp3.1\KombniyApp.Services.pdb
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Services\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KombniyApp.Core\KombniyApp.Core.csproj" />
+    <ProjectReference Include="..\KombniyApp.DTO\KombniyApp.DTO.csproj" />
+  </ItemGroup>
+
+</Project>

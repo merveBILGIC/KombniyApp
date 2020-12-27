@@ -7,10 +7,8 @@ using Microsoft.AspNetCore.Http;
 using KombniyApp.Core.Manage;
 using KombniyApp.Core.Repository;
 using KombniyApp.Core.Services;
-
-
-
-
+using KombniyApp.Services;
+using Microsoft.AspNetCore.Authentication;
 
 namespace KombniyAppAccount.Controllers
 {
@@ -21,10 +19,10 @@ namespace KombniyAppAccount.Controllers
 		private readonly IUser _Iuser;
 		
 
-		public AccountController(IUser user)
-		{
+		public AccountController(IUser user) 
+		{ 
 			_Iuser = user;
-
+			
 		}
 
 		
@@ -79,6 +77,32 @@ namespace KombniyAppAccount.Controllers
 		}
 		*/
 		[HttpPost]
+		public async Task<IActionResult>Login(LoginModel model)
+		{
+			if (!ModelState.IsValid)
+			{
+				return View("Index", model);
+			}
+
+			var users = _Iuser.LoginUser(new KombniyApp.DTO.UserDTO() { Email = model.Email, Password = model.Password });
+				if(users!= null)
+			    {
+				   return RedirectToAction("Index", "Home");
+			    }
+
+
+
+			return View("Index",model);
+				
+		}
+			
+
+
+
+
+
+
+		/*[HttpPost]
 		public async Task<IActionResult> Login(User model)
 		{
 			User user = await _Iuser.FindUser();
@@ -94,12 +118,12 @@ namespace KombniyAppAccount.Controllers
 			HttpContext.Session.SetInt32("error", 1);
 			return RedirectToAction(nameof(Index));
 		}
-
+		*/
 
 		[HttpPost]
 		public IActionResult LogOut()
 		{
-			HttpContext.Session.Clear();
+			HttpContext.SignOutAsync();
 			return Redirect("Index");
 		}
 
@@ -119,14 +143,11 @@ namespace KombniyAppAccount.Controllers
 		}
 
 
-		[HttpPost]
-		public async Task<IActionResult> Register(User user)
-		{
-			User newUser = user;
-			await _Iuser.CreateUser(newUser);
-			
-			return Json(true);
-		}
+		
+		
+
+
+
 		/*public async Task<IActionResult> Remove(int Id)
 		{
 			int? uid = HttpContext.Session.GetInt32("id");
@@ -158,14 +179,69 @@ namespace KombniyAppAccount.Controllers
 			}
 			return View();
 		}
+		public async Task<IActionResult> Register()
+		{
+			User user = new User();
+			 return  View(user);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Register(User user)
+		{
+
+			if (!ModelState.IsValid)
+			{
+				return View("User", user);
+			}
+			var checkUser = _Iuser.CheckUser(user.Username, user.Email);
+			if (checkUser == null)
+			{
+				return RedirectToAction("Index");
+			}
+			else
+			{
+				throw new InvalidOperationException("KULLANICI ADI VEYA EMAİL KULLANILMAKTADIR...!");
+
+
+
+			}
+		}
+
+
 		public IActionResult SignUp()
 		{
-			if (HttpContext.Session.GetInt32("id").HasValue)
+			/*if (HttpContext.Session.GetInt32("id").HasValue)
 			{
 				return Redirect("/Account/Index");
 			}
-			return View();
+			return View();*/
+			User user = new User();
+			return View(user);
+
 		}
+
+
+		public IActionResult SingUp(User user)
+		{
+
+			if (!ModelState.IsValid)
+			{
+				return View("User", user);
+			}
+			var checkUser = _Iuser.CheckUser(user.Username, user.Email);
+			if (checkUser == null)
+			{
+				return RedirectToAction("Index");
+			}
+			else
+			{
+				throw new InvalidOperationException("KULLANICI ADI VEYA EMAİL KULLANILMAKTADIR...!");
+
+
+
+			}
+		}
+
 
 		/*[HttpPost]
 		public async Task<IActionResult> UpdateProfile(User usr)
