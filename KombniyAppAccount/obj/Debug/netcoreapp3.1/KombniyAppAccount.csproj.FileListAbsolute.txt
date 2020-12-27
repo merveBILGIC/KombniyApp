@@ -179,3 +179,10 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\n
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Stripe.net.dll
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactUs.cshtml.g.cs
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\FAQ.cshtml.g.cs
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProfilePage.cshtml.g.cs
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Index.cshtml.g.cs
+C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Payment\Receipt.cshtml.g.cs
