@@ -1,0 +1,9 @@
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\bin\Debug\netcoreapp3.1\KombinyAPP.MapConfig.deps.json
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\bin\Debug\netcoreapp3.1\KombinyAPP.MapConfig.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\bin\Debug\netcoreapp3.1\KombinyAPP.MapConfig.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.csprojAssemblyReference.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.AssemblyInfoInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.AssemblyInfo.cs
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.csproj.CoreCompileInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.pdb

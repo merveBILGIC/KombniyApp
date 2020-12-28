@@ -19,6 +19,47 @@ namespace KombiyApp.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("KombniyApp.Core.Models.GalleryImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GalleryImages");
+                });
+
+            modelBuilder.Entity("KombniyApp.Core.Models.ImageTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("GalleryImageId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GalleryImageId");
+
+                    b.ToTable("ImageTags");
+                });
+
             modelBuilder.Entity("KombniyApp.Core.Models.MailModel", b =>
                 {
                     b.Property<int>("Id")
@@ -85,9 +126,6 @@ namespace KombiyApp.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -193,33 +231,25 @@ namespace KombiyApp.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("About")
-                        .HasColumnType("nvarchar(1000)")
-                        .HasMaxLength(1000);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(20)")
-                        .HasMaxLength(20);
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Repassword")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Surname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(50)")
-                        .HasMaxLength(50);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("WardrobeId")
                         .HasColumnType("int");
@@ -257,6 +287,13 @@ namespace KombiyApp.Data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Wardrobes");
+                });
+
+            modelBuilder.Entity("KombniyApp.Core.Models.ImageTag", b =>
+                {
+                    b.HasOne("KombniyApp.Core.Models.GalleryImage", null)
+                        .WithMany("Tags")
+                        .HasForeignKey("GalleryImageId");
                 });
 
             modelBuilder.Entity("KombniyApp.Core.Models.MailModel", b =>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hl7iQsVVmdWowtb2VIrqyokLvbUyImTdgFPqqdWyj25JagxgYjHrR5qGalTht2JuAc1HpD7tfxM/t/OshZ5kvA==",
+  "dgSpecHash": "rtf+qHgSjkalUXOO4CCiy/biK8BnA5CEock8p0uAK3PJw2aLn1NI+f/4S+MONJriP/dBIW21E3Uhl/Qv6uO/Mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombinyAPP.MapConfig\\KombinyAPP.MapConfig.csproj",
+  "projectFilePath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombinyAPP.MapConfig\\KombinyAPP.MapConfig.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

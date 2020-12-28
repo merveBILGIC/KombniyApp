@@ -1,0 +1,14 @@
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombinyApp.Mapping.deps.json
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombinyApp.Mapping.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombinyApp.Mapping.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombniyApp.Core.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombniyApp.Core.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.csprojAssemblyReference.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.AssemblyInfoInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.AssemblyInfo.cs
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.csproj.CopyComplete
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.pdb

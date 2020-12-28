@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w8prEfYBV2az9TDxYJlTW0HUNfNygJUO3kTi0r/ECo/BxKMHBC8eG/NRtvwhSwfIpvOBNv8AUvSw0xYp3NTVNQ==",
+  "dgSpecHash": "Bb9jcZLbd48V4JkmHrmWrk99JCafsE0mhDgoqDzDDOzlLluma0PqgUoLCcQL+kqwD5/HcRbPr+FBuo27wZKrFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj",
+  "projectFilePath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],

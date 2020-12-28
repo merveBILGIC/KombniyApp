@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DNN/sCFMK6jAV8FjQOtiaDrGaIbV78QVMJ8DoZZDJeNMpCE1snBQiQFcSQI4wV8UbwtzT3GPYr8T2xp94cfeyQ==",
+  "dgSpecHash": "EAAEX+G6vUyp1dID0i9X2mhPClbzLT4x835NngaA6mJckDS0lIgwV59OHFIWVRmvHCTSjxXpirxdn+RNob/7Sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
+  "projectFilePath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",

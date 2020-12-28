@@ -19,7 +19,8 @@ namespace KombiyApp.Data
 		public DbSet<PasswordCodeModel> Passwords { get; set; }
 		public DbSet<RegisterViewModel> registerViewModels { get; set; }
 		public DbSet<MailModel> mailModels { get; set; }
-		
+		public DbSet<GalleryImage> GalleryImages { get; set; }
+		public DbSet<ImageTag>ImageTags { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

@@ -10,3 +10,15 @@ C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Core\obj\Debug\net
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Core\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Core\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb
 C:\Users\merve bilgiç\Documents\GitHub\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.csproj.CopyComplete
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\bin\Debug\netcoreapp3.1\KombniyApp.Core.deps.json
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\bin\Debug\netcoreapp3.1\KombniyApp.Core.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\bin\Debug\netcoreapp3.1\KombniyApp.Core.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.csprojAssemblyReference.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.AssemblyInfoInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.AssemblyInfo.cs
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.csproj.CopyComplete
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.Core\obj\Debug\netcoreapp3.1\KombniyApp.Core.pdb

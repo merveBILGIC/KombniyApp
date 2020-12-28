@@ -1,0 +1,163 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "KombinyApp.Mapping/1.0.0": {
+        "dependencies": {
+          "KombniyApp.Core": "1.0.0",
+          "KombniyApp.DTO": "1.0.0"
+        },
+        "runtime": {
+          "KombinyApp.Mapping.dll": {}
+        }
+      },
+      "FluentValidation/9.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.3.0.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/9.3.0": {
+        "dependencies": {
+          "FluentValidation": "9.3.0",
+          "FluentValidation.DependencyInjectionExtensions": "9.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.3.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/9.3.0": {
+        "dependencies": {
+          "FluentValidation": "9.3.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.3.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0",
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.120.60107"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {},
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.IO.Pipelines/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.120.57516"
+          }
+        }
+      },
+      "KombniyApp.Core/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "9.3.0",
+          "FluentValidation.AspNetCore": "9.3.0",
+          "KombniyApp.DTO": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.1"
+        },
+        "runtime": {
+          "KombniyApp.Core.dll": {}
+        }
+      },
+      "KombniyApp.DTO/1.0.0": {
+        "runtime": {
+          "KombniyApp.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KombinyApp.Mapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/9.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C44l6Ih+YwpED/TsXfl6LIq6Z4wLXahstnr6T70uUg1Hs7/bLBKKAo9Nl0sLhVjDE8TA+fF+O3IM4nDrwabcSQ==",
+      "path": "fluentvalidation/9.3.0",
+      "hashPath": "fluentvalidation.9.3.0.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/9.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ZKHVvNIVgZEGgCe8z4NyVoPaCmM0kTRM0EySC23Enuc4jzBdhI+LtGhcvkF7lAulNlxR2S9IDnLibOM6RDaHg==",
+      "path": "fluentvalidation.aspnetcore/9.3.0",
+      "hashPath": "fluentvalidation.aspnetcore.9.3.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/9.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5PnAIlsApzWPp9rjxfu3xVWSj2qMDeFnEE3P4yx/oIQO1aLhPEEn4yW7JiydP9kpQKAtZ53qwNaOoQ1xSxajuA==",
+      "path": "fluentvalidation.dependencyinjectionextensions/9.3.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Z1gfwYHIo5MyG8g5ApRW39eeBbOEU6X9kpw789TRvgN2+99AG8UUyj9x48xRTvfl7Hs1MM+DerlbX7+0fzErA==",
+      "path": "microsoft.aspnetcore.http.features/5.0.1",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "System.IO.Pipelines/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
+      "path": "system.io.pipelines/5.0.1",
+      "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
+    },
+    "KombniyApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KombniyApp.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

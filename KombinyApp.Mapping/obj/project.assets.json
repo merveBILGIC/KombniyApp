@@ -266,11 +266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombinyApp.Mapping\\KombinyApp.Mapping.csproj",
+      "projectUniqueName": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombinyApp.Mapping\\KombinyApp.Mapping.csproj",
       "projectName": "KombinyApp.Mapping",
-      "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombinyApp.Mapping\\KombinyApp.Mapping.csproj",
+      "projectPath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombinyApp.Mapping\\KombinyApp.Mapping.csproj",
       "packagesPath": "C:\\Users\\merve bilgiç\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombinyApp.Mapping\\obj\\",
+      "outputPath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombinyApp.Mapping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -290,11 +290,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
-              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
+            "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj"
             },
-            "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj": {
-              "projectPath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj"
+            "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj": {
+              "projectPath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombniyApp.DTO\\KombniyApp.DTO.csproj"
             }
           }
         }
