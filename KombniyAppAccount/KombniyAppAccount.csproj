@@ -25,11 +25,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Stripe.net" Version="39.31.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KombiyApp.Data\KombiyApp.Data.csproj" />
     <ProjectReference Include="..\KombniyApp.Core\KombniyApp.Core.csproj" />
+    <ProjectReference Include="..\KombniyApp.DTO\KombniyApp.DTO.csproj" />
     <ProjectReference Include="..\KombniyApp.Services\KombniyApp.Services.csproj" />
   </ItemGroup>
 

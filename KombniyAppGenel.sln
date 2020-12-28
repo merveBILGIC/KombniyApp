@@ -12,7 +12,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombiyApp.Data", "KombiyApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombniyApp.Core", "KombniyApp.Core\KombniyApp.Core.csproj", "{2F9C5DF4-41B3-4738-AAB6-AD4E2FE9DF88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KombniyApp.Services", "KombniyApp.Services\KombniyApp.Services.csproj", "{3E4CD469-34E8-4026-9470-2F9FD8331988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombniyApp.Services", "KombniyApp.Services\KombniyApp.Services.csproj", "{3E4CD469-34E8-4026-9470-2F9FD8331988}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KombniyApp.DTO", "KombniyApp.DTO\KombniyApp.DTO.csproj", "{BB7BD3DC-41C0-4725-8283-CBB90C11062F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KombinyApp.Mapping", "KombinyApp.Mapping\KombinyApp.Mapping.csproj", "{FA6F3FAD-6258-4378-AC2E-6656B3CC7B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KombinyAPP.MapConfig", "KombinyAPP.MapConfig\KombinyAPP.MapConfig.csproj", "{4A237696-9EBF-4436-879B-970084EB20FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +42,18 @@ Global
 		{3E4CD469-34E8-4026-9470-2F9FD8331988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E4CD469-34E8-4026-9470-2F9FD8331988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E4CD469-34E8-4026-9470-2F9FD8331988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7BD3DC-41C0-4725-8283-CBB90C11062F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7BD3DC-41C0-4725-8283-CBB90C11062F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7BD3DC-41C0-4725-8283-CBB90C11062F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7BD3DC-41C0-4725-8283-CBB90C11062F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6F3FAD-6258-4378-AC2E-6656B3CC7B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6F3FAD-6258-4378-AC2E-6656B3CC7B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6F3FAD-6258-4378-AC2E-6656B3CC7B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6F3FAD-6258-4378-AC2E-6656B3CC7B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A237696-9EBF-4436-879B-970084EB20FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A237696-9EBF-4436-879B-970084EB20FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A237696-9EBF-4436-879B-970084EB20FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A237696-9EBF-4436-879B-970084EB20FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
