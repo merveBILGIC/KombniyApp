@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Hl7iQsVVmdWowtb2VIrqyokLvbUyImTdgFPqqdWyj25JagxgYjHrR5qGalTht2JuAc1HpD7tfxM/t/OshZ5kvA==",
+  "dgSpecHash": "Qj5N1wIcZvtz6hJ0Y4AFa6YXA0iUa5dpTQPQ/D3IEmkTLH4wiXGpuXjPTnII1kd7apai3iIa5mxj6QprqyR5uA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\merve bilgiç\\Documents\\GitHub\\KombniyApp\\KombinyAPP.MapConfig\\KombinyAPP.MapConfig.csproj",
+  "projectFilePath": "C:\\Users\\Merilin\\OneDrive\\Документи\\GitHub\\KombniyApp\\KombinyAPP.MapConfig\\KombinyAPP.MapConfig.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\merve bilgiç\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\merve bilgiç\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
-    "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\Merilin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Merilin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Merilin\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
