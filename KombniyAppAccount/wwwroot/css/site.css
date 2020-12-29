@@ -21,6 +21,35 @@ for details on configuring this project to bundle and minify static web assets. 
     display: inline-block;
     margin: 12px;
     position: relative;
+   
+}
+.gallery-image-container{
+    text-align:left;
+}
+.image-detail{
+    padding:12px;
+    border-radius:2px;
+}
+.image-detail-meta{
+    padding:12px;
+
+}
+.submit{
+    padding:2%;
+
+}
+.btn-file{
+    margin:6px;
+}
+#upload-form{
+    padding:60px;
+    margin:auto;
+    width:50%;
+}
+.upload-container{
+    padding:2%;
+}
+.drop-shadow {
     box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 

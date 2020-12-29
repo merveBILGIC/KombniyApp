@@ -14,7 +14,7 @@ namespace KombniyApp.Core.Repository
 		IProductRepository Product { get; }
 		IStlinAndEnvironmentRepo stlinAndEnvironmentRepo { get; }
 		IStylinManageRepo stylinManageRepo { get; }
-
+		IImageRepository ımageRepository { get; }
 
 
 		Task<int> CommitAsync();

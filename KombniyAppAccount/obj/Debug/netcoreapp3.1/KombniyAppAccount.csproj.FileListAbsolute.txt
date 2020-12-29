@@ -375,3 +375,4 @@ C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\KombniyAppAccount.pdb
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\KombniyAppAccount.genruntimeconfig.cache
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Index.cshtml.g.cs
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Image\Upload.cshtml.g.cs

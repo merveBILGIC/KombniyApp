@@ -1,0 +1,37 @@
+﻿@using KombniyAppAccount.Models
+@model UploadImageModel
+<div class="container body-content">
+    <div class="row upload-container">
+        <div class="upload-from drop-shadow">
+            <form asp-action="UploadNewImage"
+                  method="post" 
+                  enctype="multipart/form-data"
+                  id="upload-form">
+                <div class="form-group">
+                    <label asp-for="Title"></label>
+                    <input asp-for="Title" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Tags"></label>
+                    <input asp-for="Tags" class="form-control" />
+                </div>
+
+                <div>
+                    <label class="btn btn-defauld btn-file">
+                        Browse for Image
+                        <input type="file" name="file" style="display:none" />
+
+                    </label>
+                </div>
+                <div class="submit">
+                    <button type="submit" id="btn-upload" class="btn btn-info">
+                        Kaydet
+                    </button>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

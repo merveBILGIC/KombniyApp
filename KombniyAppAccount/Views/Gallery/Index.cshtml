@@ -6,7 +6,8 @@
     <div class="gallery-content">
         @foreach (var image in Model.Images)
         {
-            <div class="gallery-image-container"></div>
+            @*<div class="gallery-image-container"></div>
+            @*<div class="gallery-image-container"></div>*@
                 <div class="gallery-image" style="background-image:url(@image.Url)"></div>
 
                            <span>@image.Title</span>

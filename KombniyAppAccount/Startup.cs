@@ -42,6 +42,7 @@ namespace KombniyAppAccount
 			ConfigureStripe();
 			services.AddControllersWithViews();
 			services.AddDistributedMemoryCache();
+			services .AddScoped<IImage, ImageService>();
 			services.AddScoped<ICardPaymentServices, CardPaymentServices>();
 			services.AddTransient<IUnitOfWork, UnitOfWork>();
 			services.AddTransient<IUser, UserServices>();
