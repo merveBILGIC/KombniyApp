@@ -25,7 +25,7 @@ namespace KombniyAppAccount.Controllers
 			{
 				Images = imageList,
 				SearcQuery = ""
-			}
+			};
 			return View(model);
 
 		}

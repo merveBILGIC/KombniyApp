@@ -3,14 +3,15 @@
 
 
 <div class="container body-content">
-    <div class="gallery-content">
+    <div class=" row gallery-content">
         @foreach (var image in Model.Images)
         {
-            @*<div class="gallery-image-container"></div>
-            @*<div class="gallery-image-container"></div>*@
-                <div class="gallery-image" style="background-image:url(@image.Url)"></div>
+             <div class="gallery-image-container">
 
-                           <span>@image.Title</span>
+                 <div class="gallery-image" style="background-image:url(@image.Url)"></div>
+             </div>
+
+                     @*      <span>@image.Title</span>
             <ul>
                @foreach(var tag in image.Tags)
                 {
@@ -19,7 +20,7 @@
                     @tag.Description
                 </li>
                }
-            </ul>
+            </ul>*@
 
         }
     </div>

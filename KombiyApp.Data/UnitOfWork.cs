@@ -19,14 +19,17 @@ namespace KombiyApp.Data
 		private WardrobeRepository _wardrobeRepository;
 		private StlingAndEnvironmentRepository _environmentRepository;
 		private StylingManageRepo _stylingManageRepo;
+		private ImageRepo _ımageRepo;
 
 		public IUserRepository Users => _userRepository ?? new UserRepository(_context);
 		public IProductRepository Product => _productRepository ?? new ProductRepository(_context);
 		public IWardrobeRepository Wardrobes => _wardrobeRepository ?? new WardrobeRepository(_context);
 		public IStlinAndEnvironmentRepo stlinAndEnvironmentRepo => _environmentRepository ?? new StlingAndEnvironmentRepository(_context);
 		public IStylinManageRepo stylinManageRepo => _stylingManageRepo ?? new StylingManageRepo(_context);
+		public IImageRepository ımageRepository => _ımageRepo ?? new ImageRepo(_context);
 
-		
+
+
 		public async Task<int> CommitAsync()
 		{
 			return await _context.SaveChangesAsync();
