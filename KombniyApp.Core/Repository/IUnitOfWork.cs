@@ -10,9 +10,6 @@ namespace KombniyApp.Core.Repository
 	{
 
 		IUserRepository Users { get; }
-		IWardrobeRepository Wardrobes { get; }
-		IProductRepository Product { get; }
-		IStlinAndEnvironmentRepo stlinAndEnvironmentRepo { get; }
 		IStylinManageRepo stylinManageRepo { get; }
 		IImageRepository ımageRepository { get; }
 

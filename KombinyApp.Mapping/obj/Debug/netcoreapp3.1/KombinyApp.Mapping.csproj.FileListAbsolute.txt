@@ -12,3 +12,5 @@ C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\ob
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.csproj.CopyComplete
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.dll
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\obj\Debug\netcoreapp3.1\KombinyApp.Mapping.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombinyAPP.MapConfig.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyApp.Mapping\bin\Debug\netcoreapp3.1\KombinyAPP.MapConfig.pdb

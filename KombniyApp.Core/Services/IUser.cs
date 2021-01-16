@@ -15,7 +15,7 @@ namespace KombniyApp.Core.Services
 		Task<User> CreateUser(User newUser);
 		Task UpdateUser(User UserToBeUpdated, User user);
 		Task DeleteUser(User user);
-		Task<User> FindUser();
+		Task<User> FindUser(string email,string password);
 		Task<PasswordCodeModel> GetPassword(string code);
 		UserDTO LoginUser(UserDTO loginUser);
 		UserDTO CheckUser(string Username, string Email);

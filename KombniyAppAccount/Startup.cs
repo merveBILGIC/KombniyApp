@@ -22,7 +22,8 @@ using KombniyAppAccount.Validation;
 using KombniyAppAccount.Models;
 using KombniyAppAccount.PaymentServices;
 using Stripe;
-
+using KombinyAPP.MapConfig.ConfigProfile;
+using Microsoft.Extensions.Logging;
 
 namespace KombniyAppAccount
 {
@@ -31,7 +32,7 @@ namespace KombniyAppAccount
 		public Startup(IConfiguration configuration)
 		{
 			Configuration = configuration;
-			
+			MapperConfig.RegisterMapper();
 		}
 
 		public IConfiguration Configuration { get; }
@@ -40,6 +41,14 @@ namespace KombniyAppAccount
 		public void ConfigureServices(IServiceCollection services)
 		{
 			ConfigureStripe();
+			services.AddAuthentication("CookieAuthentication")
+				.AddCookie("CookieAuthentication", config =>
+				 {
+					 config.Cookie.Name = "UserLoginCokie";
+					 config.LoginPath = "/Index";
+					 config.AccessDeniedPath = "/AccessDefined";
+				 });
+			
 			services.AddControllersWithViews();
 			services.AddDistributedMemoryCache();
 			services .AddScoped<IImage, ImageService>();
@@ -65,7 +74,7 @@ namespace KombniyAppAccount
 			StripeConfiguration.SetApiKey(stripeApiKey);
 		}
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
 		{
 			if (env.IsDevelopment())
 			{
@@ -77,6 +86,11 @@ namespace KombniyAppAccount
 				// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
 				app.UseHsts();
 			}
+			
+
+			Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MzgyMjE5QDMxMzgyZTM0MmUzMFFOQzA3MDcwS2krS3cxbGE3SStQK1YvVjJQcTVrWFFlc3I3Y0lhM241Z1U9");
+			
+			
 			app.UseHttpsRedirection();
 			app.UseStaticFiles();
 			app.UseSession();

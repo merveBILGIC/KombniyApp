@@ -8,12 +8,12 @@ namespace KombniyApp.Core.Repository
 {
 	public interface IUserRepository:IRepository<User>
 	{
-		Task<IEnumerable<User>> GetAllWithWardrobeAsync();
-		Task<User> GetWithWardrobeByIdAsync(int id);
+		//Task<IEnumerable<User>> GetAllWithWardrobeAsync();
+		//Task<User> GetWithWardrobeByIdAsync(int id);
 		//Task<User> GetWithUserMatesByIdAsync(int id);
 		Task<User> GetUser(int id);
 		Task<PasswordCodeModel> GetPassword(string code);
-		Task<User> FindUser();
+		Task<User> FindUser(string email,string password);
 		
 			
 		//Task<bool> InsertCode();

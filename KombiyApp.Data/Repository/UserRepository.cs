@@ -32,19 +32,9 @@ namespace KombiyApp.Data.Repository
 				.Include(a => a.UserId)
 				.SingleAsync(a => a.UserId == id);
 		}
-		public async Task<IEnumerable<User>> GetAllWithWardrobeAsync()
-		{
-			return await AppDbContext.Users
-				.Include(a => a.Wardrobe)
-				.ToListAsync();
-		}
+		
 
-		public  Task<User> GetWithWardrobeByIdAsync(int id)
-		{
-			return  AppDbContext.Users
-				.Include(a => a.Wardrobe)
-				.SingleOrDefaultAsync(a => a.UserId == id);
-		}
+		
 
 		/*public Task<User> GetWithUserMatesByIdAsync(int id)
 		{
@@ -79,11 +69,16 @@ namespace KombiyApp.Data.Repository
 				.SingleOrDefaultAsync(w => w.Code == code);
 		}
 		
-		public async Task<User>FindUser()
+		public async Task<User>FindUser(string email,string password)
 		{
-			return AppDbContext.Users
+			return (User)AppDbContext.Users
+				.Include(z => (z.Email == email || z.Password == password));
 				
-				.Find(User);
+				
+				
+				
+
+													 
 		
 		}
 		 

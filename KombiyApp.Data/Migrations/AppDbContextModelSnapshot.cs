@@ -162,49 +162,6 @@ namespace KombiyApp.Data.Migrations
                     b.ToTable("registerViewModels");
                 });
 
-            modelBuilder.Entity("KombniyApp.Core.Product", b =>
-                {
-                    b.Property<int>("ProductId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("ImageSrc")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("StlingAndEnvironmentId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("WardrobeId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductId");
-
-                    b.HasIndex("StlingAndEnvironmentId");
-
-                    b.HasIndex("WardrobeId");
-
-                    b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("KombniyApp.Core.StlingAndEnvironment", b =>
-                {
-                    b.Property<int>("StlingAndEnvironmentId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("StlingAndEnvironmentId");
-
-                    b.ToTable("StlingAndEnviroments");
-                });
-
             modelBuilder.Entity("KombniyApp.Core.StylingManage", b =>
                 {
                     b.Property<int>("StylingManageId")
@@ -251,42 +208,12 @@ namespace KombiyApp.Data.Migrations
                     b.Property<string>("Username")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("WardrobeId")
-                        .HasColumnType("int");
-
                     b.Property<string>("photoPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserId");
 
-                    b.HasIndex("WardrobeId");
-
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("KombniyApp.Core.Wardrobe", b =>
-                {
-                    b.Property<int>("WardrobeId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ProductId1")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("WardrobeId");
-
-                    b.HasIndex("ProductId1");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Wardrobes");
                 });
 
             modelBuilder.Entity("KombniyApp.Core.Models.ImageTag", b =>
@@ -316,41 +243,6 @@ namespace KombiyApp.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("KombniyApp.Core.Product", b =>
-                {
-                    b.HasOne("KombniyApp.Core.StlingAndEnvironment", "StlingAndEnvironment")
-                        .WithMany("Products")
-                        .HasForeignKey("StlingAndEnvironmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("KombniyApp.Core.Wardrobe", null)
-                        .WithMany("Products")
-                        .HasForeignKey("WardrobeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("KombniyApp.Core.User", b =>
-                {
-                    b.HasOne("KombniyApp.Core.Wardrobe", "Wardrobe")
-                        .WithMany()
-                        .HasForeignKey("WardrobeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("KombniyApp.Core.Wardrobe", b =>
-                {
-                    b.HasOne("KombniyApp.Core.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId1");
-
-                    b.HasOne("KombniyApp.Core.User", null)
-                        .WithMany("Wardrobes")
-                        .HasForeignKey("UserId");
                 });
 #pragma warning restore 612, 618
         }

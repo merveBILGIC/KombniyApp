@@ -26,17 +26,11 @@ namespace KombniyApp.Core
 		public string Password { get; set; }
 		public string Repassword { get; set; }
 
-		public string photoPath { get; set; }
 
 		
 		public string About { get; set; } = "Bir bilgi girilmedi";
 
-		public int WardrobeId { get; set; }
-
-		public Wardrobe Wardrobe { get; set; }
-
-		public IEnumerable<Wardrobe> Wardrobes { get; set; }
-
+		
 
 	}
 }

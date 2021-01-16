@@ -1,0 +1,9 @@
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\bin\Release\netcoreapp3.1\KombniyApp.DTO.deps.json
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\bin\Release\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\bin\Release\netcoreapp3.1\KombniyApp.DTO.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\obj\Release\netcoreapp3.1\KombniyApp.DTO.csprojAssemblyReference.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\obj\Release\netcoreapp3.1\KombniyApp.DTO.AssemblyInfoInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\obj\Release\netcoreapp3.1\KombniyApp.DTO.AssemblyInfo.cs
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\obj\Release\netcoreapp3.1\KombniyApp.DTO.csproj.CoreCompileInputs.cache
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\obj\Release\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyApp.DTO\obj\Release\netcoreapp3.1\KombniyApp.DTO.pdb

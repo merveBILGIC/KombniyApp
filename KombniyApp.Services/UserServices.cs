@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using KombniyApp.Core.Models;
 using KombniyApp.DTO;
-
+using KombinyAPP.MapConfig.ConfigProfile;
 namespace KombniyApp.Services
 {
 	public class UserServices:IUser
@@ -52,10 +52,10 @@ namespace KombniyApp.Services
 			await _unitOfWork.CommitAsync();
 
 		}
-		public async Task<User>FindUser()
+		public async Task<User>FindUser(string email,string password)
 		{
 			
-			return await _unitOfWork.Users.FindUser();
+			return await _unitOfWork.Users.FindUser(email,password);
 		}
 
 
@@ -66,8 +66,11 @@ namespace KombniyApp.Services
 
 		public UserDTO LoginUser(UserDTO loginUser)
 		{
-			throw new NotImplementedException();
-				
+			var getUser = _unitOfWork.Users.Find(z => (z.Email == loginUser.Email ||
+													  z.Username == loginUser.Username) &&
+													  z.Password == loginUser.Password);
+			return MapperFactory.CurrentMapper.Map<UserDTO>(getUser);
+
 		}
 	    public UserDTO CheckUser(string Username,string Email)
 		{
@@ -78,3 +81,4 @@ namespace KombniyApp.Services
 
 	}
 }
+ 

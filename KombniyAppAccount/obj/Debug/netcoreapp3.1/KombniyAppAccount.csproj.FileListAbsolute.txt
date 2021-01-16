@@ -376,3 +376,10 @@ C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\KombniyAppAccount.genruntimeconfig.cache
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Gallery\Index.cshtml.g.cs
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Image\Upload.cshtml.g.cs
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombinyAPP.MapConfig.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\KombinyAPP.MapConfig.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Syncfusion.EJ2.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\bin\Debug\netcoreapp3.1\Syncfusion.Licensing.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Card\SwipeableCard.cshtml.g.cs
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombniyAppAccount\obj\Debug\netcoreapp3.1\Razor\Views\Styling\Index.cshtml.g.cs

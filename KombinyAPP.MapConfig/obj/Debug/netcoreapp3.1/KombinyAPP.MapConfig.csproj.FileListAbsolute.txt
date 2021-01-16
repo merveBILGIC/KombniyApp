@@ -7,3 +7,8 @@ C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.csproj.CoreCompileInputs.cache
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.dll
 C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\bin\Debug\netcoreapp3.1\KombniyApp.Core.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\bin\Debug\netcoreapp3.1\KombniyApp.DTO.dll
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\bin\Debug\netcoreapp3.1\KombniyApp.Core.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\bin\Debug\netcoreapp3.1\KombniyApp.DTO.pdb
+C:\Users\merve bilgiç\Source\Repos\merveBILGIC\KombniyApp\KombinyAPP.MapConfig\obj\Debug\netcoreapp3.1\KombinyAPP.MapConfig.csproj.CopyComplete

@@ -11,10 +11,9 @@ namespace KombiyApp.Data
 		}
 
 		public DbSet<User> Users { get; set; }
-		public DbSet<Wardrobe> Wardrobes{ get; set; }
-		public DbSet<Product> Products { get; set; }
+		
 		public DbSet<StylingManage> stylingManagers { get; set; }
-		public DbSet<StlingAndEnvironment> StlingAndEnviroments { get; set; }
+	
 		//public DbSet<UserMates> userMates { get; set; }
 		public DbSet<PasswordCodeModel> Passwords { get; set; }
 		public DbSet<RegisterViewModel> registerViewModels { get; set; }

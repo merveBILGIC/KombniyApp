@@ -8,11 +8,24 @@
     ".NETCoreApp,Version=v3.1": {
       "KombinyApp.Mapping/1.0.0": {
         "dependencies": {
+          "KombinyAPP.MapConfig": "1.0.0",
           "KombniyApp.Core": "1.0.0",
           "KombniyApp.DTO": "1.0.0"
         },
         "runtime": {
           "KombinyApp.Mapping.dll": {}
+        }
+      },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
         }
       },
       "FluentValidation/9.3.0": {
@@ -59,6 +72,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {},
       "Microsoft.Extensions.Primitives/5.0.0": {
         "runtime": {
@@ -74,6 +88,17 @@
             "assemblyVersion": "5.0.0.1",
             "fileVersion": "5.0.120.57516"
           }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "KombinyAPP.MapConfig/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "KombniyApp.Core": "1.0.0",
+          "KombniyApp.DTO": "1.0.0"
+        },
+        "runtime": {
+          "KombinyAPP.MapConfig.dll": {}
         }
       },
       "KombniyApp.Core/1.0.0": {
@@ -99,6 +124,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
     },
     "FluentValidation/9.3.0": {
       "type": "package",
@@ -128,6 +160,13 @@
       "path": "microsoft.aspnetcore.http.features/5.0.1",
       "hashPath": "microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512"
     },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -148,6 +187,18 @@
       "sha512": "sha512-qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
       "path": "system.io.pipelines/5.0.1",
       "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "KombinyAPP.MapConfig/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "KombniyApp.Core/1.0.0": {
       "type": "project",

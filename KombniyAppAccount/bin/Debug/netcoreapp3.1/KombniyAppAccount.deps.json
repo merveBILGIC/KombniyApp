@@ -35,6 +35,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
           "Stripe.net": "39.31.0",
+          "Syncfusion.EJ2.AspNet.Core": "18.4.0.34",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -302,6 +303,21 @@
         },
         "compile": {
           "KombniyAppAccount.dll": {}
+        }
+      },
+      "AutoMapper/10.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
       "FluentValidation/9.3.0": {
@@ -1435,6 +1451,32 @@
           "lib/netstandard2.0/Stripe.net.dll": {}
         }
       },
+      "Syncfusion.EJ2.AspNet.Core/18.4.0.34": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "Syncfusion.Licensing": "18.4.0.34"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Syncfusion.EJ2.dll": {
+            "assemblyVersion": "18.4.0.34",
+            "fileVersion": "18.4.0.34"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Syncfusion.EJ2.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/18.4.0.34": {
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.4.0.34",
+            "fileVersion": "18.4.0.34"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1845,7 +1887,7 @@
           "System.Linq": "4.3.0",
           "System.ObjectModel": "4.3.0",
           "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
@@ -1971,15 +2013,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.Emit/4.3.0": {
-        "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
-        }
-      },
+      "System.Reflection.Emit/4.7.0": {},
       "System.Reflection.Emit.ILGeneration/4.3.0": {
         "dependencies": {
           "System.Reflection": "4.3.0",
@@ -2381,7 +2415,7 @@
           "System.IO": "4.3.0",
           "System.Linq": "4.3.0",
           "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
@@ -2393,6 +2427,19 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "KombinyAPP.MapConfig/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "KombniyApp.Core": "1.0.0",
+          "KombniyApp.DTO": "1.0.0"
+        },
+        "runtime": {
+          "KombinyAPP.MapConfig.dll": {}
+        },
+        "compile": {
+          "KombinyAPP.MapConfig.dll": {}
         }
       },
       "KombiyApp.Data/1.0.0": {
@@ -2432,6 +2479,7 @@
       },
       "KombniyApp.Services/1.0.0": {
         "dependencies": {
+          "KombinyAPP.MapConfig": "1.0.0",
           "KombiyApp.Data": "1.0.0",
           "KombniyApp.Core": "1.0.0"
         },
@@ -4016,6 +4064,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/10.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "path": "automapper/10.1.1",
+      "hashPath": "automapper.10.1.1.nupkg.sha512"
+    },
     "FluentValidation/9.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4611,6 +4666,20 @@
       "path": "stripe.net/39.31.0",
       "hashPath": "stripe.net.39.31.0.nupkg.sha512"
     },
+    "Syncfusion.EJ2.AspNet.Core/18.4.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YgLE+S9VNb0x3amhJ6sruka9S3FA1OpVvT2YQXjhrVKOrofvYB2dH5V8clvG764HNHrYWiW6KX42OzR6QzcXQg==",
+      "path": "syncfusion.ej2.aspnet.core/18.4.0.34",
+      "hashPath": "syncfusion.ej2.aspnet.core.18.4.0.34.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/18.4.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a8BuTU3KGTAMs2h0j3TCTazYLh9tWLfiFH0BWOmtqnJSwIJu1hR9yhNtblT9/4QgWFFTzyJ/yp4udWVtj/QL+g==",
+      "path": "syncfusion.licensing/18.4.0.34",
+      "hashPath": "syncfusion.licensing.18.4.0.34.nupkg.sha512"
+    },
     "System.AppContext/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -4912,12 +4981,12 @@
       "path": "system.reflection/4.3.0",
       "hashPath": "system.reflection.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.Emit/4.3.0": {
+    "System.Reflection.Emit/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
-      "path": "system.reflection.emit/4.3.0",
-      "hashPath": "system.reflection.emit.4.3.0.nupkg.sha512"
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
       "type": "package",
@@ -5219,6 +5288,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "KombinyAPP.MapConfig/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "KombiyApp.Data/1.0.0": {
       "type": "project",

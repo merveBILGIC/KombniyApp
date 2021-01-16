@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EAAEX+G6vUyp1dID0i9X2mhPClbzLT4x835NngaA6mJckDS0lIgwV59OHFIWVRmvHCTSjxXpirxdn+RNob/7Sw==",
+  "dgSpecHash": "DIAS0F7De6z+aDM5HKECGn4CX2WR6tjNkRu7x1tXMr6ULu9qeCWw/5qfpNLd7HhvW8+VsmFB1NU6hAIypsMXmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\merve bilgiç\\Source\\Repos\\merveBILGIC\\KombniyApp\\KombniyApp.Core\\KombniyApp.Core.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,7 @@
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\merve bilgiç\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
-    "C:\\Users\\merve bilgiç\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\merve bilgiç\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

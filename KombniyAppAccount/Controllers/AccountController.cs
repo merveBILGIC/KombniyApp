@@ -9,6 +9,7 @@ using KombniyApp.Core.Repository;
 using KombniyApp.Core.Services;
 using KombniyApp.Services;
 using Microsoft.AspNetCore.Authentication;
+using KombniyApp.DTO;
 
 namespace KombniyAppAccount.Controllers
 {
@@ -77,20 +78,25 @@ namespace KombniyAppAccount.Controllers
 		}
 		*/
 		[HttpPost]
-		public async Task<IActionResult>Login(LoginModel model)
+		public ActionResult Login(LoginModel model)
 		{
 			if (!ModelState.IsValid)
 			{
 				return View("Index", model);
 			}
+			try
+			{
+				var users = _Iuser.FindUser(model.Email, model.Password);
+					//LoginUser(new UserDTO() { Email = model.Email, Password = model.Password });
+				if (users != null)
+				{
+					return RedirectToAction("index","Home");
+				}
+			}
+			catch (Exception ex)
+			{
 
-			var users = _Iuser.LoginUser(new KombniyApp.DTO.UserDTO() { Email = model.Email, Password = model.Password });
-				if(users!= null)
-			    {
-				   return RedirectToAction("Index", "Home");
-			    }
-
-
+			}
 
 			return View("Index",model);
 				
